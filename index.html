@@ -1,0 +1,881 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Momentum Contact Facilitator Training with Aalia Hashem: a 50-hour contact improvisation facilitator certification, online and in person in Ubud, Bali.">
+<meta property="og:title" content="Momentum Contact Facilitator Training">
+<meta property="og:description" content="Learn to teach contact improvisation, host jams and build your own dance community. Online + Ubud, Bali.">
+<meta property="og:image" content="https://training.momentum-contact.com/img/hero.jpg">
+<meta property="og:type" content="website">
+<title>Momentum Facilitator Training</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant+Garamond:wght@500;600&family=Jost:wght@300;400;500;600&display=swap">
+<style>
+/* Layout: modern monochrome. Near-black and off-white blocks alternate; the original photos carry all the color; one elegant display face (Italiana) for every title, Jost for text. A single warm sand tone marks dates and labels. */
+:root{
+  --black:#0f0f0f;
+  --char:#1d1d1c;
+  --white:#f7f6f3;
+  --mist:#e9e8e4;
+  --ink:#141414;
+  --gray:#6b6b68;
+  --gray-d:#a9a8a3;
+  --sand:#d6c3a6;
+  --rule-l:rgba(20,20,20,.16);
+  --rule-d:rgba(247,246,243,.18);
+  --display:"Italiana","Didot","Bodoni 72",Georgia,serif;
+  --sans:"Jost","Futura","Avenir Next","Helvetica Neue",Arial,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{background:var(--white);color:var(--ink);font-family:var(--sans);font-weight:300;font-size:16.5px;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{max-width:100%;display:block}
+strong{font-weight:500}
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+section{padding-block:clamp(64px,10vw,116px)}
+.dark{background:var(--black);color:var(--white)}
+.char{background:var(--char);color:var(--white)}
+.mist{background:var(--mist)}
+.muted{color:var(--gray)}
+.dark .muted,.char .muted{color:var(--gray-d)}
+.cap{font-size:.7rem;font-weight:500;letter-spacing:.28em;text-transform:uppercase}
+.dark .cap.hi,.char .cap.hi,.cap.hi{color:var(--sand)}
+.mist .cap.hi,section:not(.dark):not(.char) .cap.hi{color:#8a7558}
+h1,h2,h3,h4,.title{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0;line-height:1.05}
+h2,.title{font-size:clamp(2.1rem,5.4vw,3.8rem);text-transform:uppercase;letter-spacing:.1em}
+.title.md{font-size:clamp(1.6rem,3.6vw,2.4rem);letter-spacing:.08em}
+h3{font-size:1.85rem;letter-spacing:.02em}
+h4{font-size:1.55rem}
+p{margin:0}
+.lede{font-size:1.12rem;max-width:62ch}
+.stack{display:flex;flex-direction:column;gap:20px}
+.head{display:flex;flex-direction:column;gap:14px;max-width:860px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:16px 28px;border:1px solid currentColor;font-size:.74rem;font-weight:500;letter-spacing:.22em;text-transform:uppercase;text-decoration:none;transition:background .2s,color .2s,border-color .2s;text-align:center}
+.btn.solid{background:var(--ink);color:var(--white);border-color:var(--ink)}
+.btn:hover{background:var(--gray);color:var(--white);border-color:var(--gray)}
+.dark .btn.solid,.char .btn.solid,.btn.light{background:var(--white);color:#4a3a2c;border-color:var(--white)}
+.dark .btn:hover,.char .btn:hover{background:var(--sand);color:var(--black);border-color:var(--sand)}
+a:focus-visible,summary:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.photo{position:relative;overflow:hidden;background:var(--char)}
+.photo img{width:100%;height:100%;object-fit:cover}
+.framed::after{content:"";position:absolute;inset:12px;border:1px solid rgba(255,255,255,.85);pointer-events:none}
+.ctaband{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px;margin-top:56px;padding-top:30px;border-top:1px solid var(--rule-l)}
+.dark .ctaband,.char .ctaband{border-top-color:var(--rule-d)}
+.ctaband .title{max-width:22ch}
+
+/* photo strip */
+.band{display:grid;grid-template-columns:2fr 1fr 1.6fr;gap:8px;background:var(--black);padding:8px}
+.band .photo{aspect-ratio:4/3}
+.band .photo.tall{aspect-ratio:auto}
+@media (max-width:700px){.band{grid-template-columns:1fr 1fr}.band .photo:first-child{grid-column:1/3}.band .photo.tall{aspect-ratio:4/3}}
+
+/* HERO */
+.hero{position:relative;color:var(--white);background:var(--black);min-height:min(90vh,840px);display:flex;align-items:flex-end}
+.hero .photo{position:absolute;inset:0}
+.hero .photo img{object-position:40% 45%}
+.hero .photo::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,.8) 100%)}
+.hero .photo::after{z-index:2}
+.hero .wrap{position:relative;z-index:3;width:100%;padding-block:140px 60px}
+.hero h1{font-size:clamp(3rem,10vw,7.6rem);text-transform:uppercase;letter-spacing:.12em;line-height:.95}
+.hero h1 span{display:block;font-family:var(--sans);font-weight:500;font-size:clamp(.78rem,1.5vw,1rem);letter-spacing:.42em;margin-top:22px}
+.hero .sub{margin-top:18px;padding-top:16px;border-top:1px solid var(--rule-d);max-width:640px;color:var(--sand)}
+.facts{background:var(--char);color:var(--white)}
+.facts ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr)}
+.facts li{padding:26px 20px;border-left:1px solid var(--rule-d);min-width:0;display:flex;flex-direction:column;gap:6px}
+.facts li:first-child{border-left:0;padding-left:0}
+.facts .cap{color:var(--sand)}
+.facts b{font-family:var(--display);font-weight:400;font-size:1.65rem;line-height:1.15}
+@media (max-width:780px){.facts ul{grid-template-columns:1fr 1fr}.facts li{padding:18px 14px}.facts li:nth-child(3){border-left:0;padding-left:0}.facts li:nth-child(n+3){border-top:1px solid var(--rule-d)}}
+
+/* GIVES */
+.gives{display:grid;grid-template-columns:6fr 5fr;gap:clamp(36px,6vw,80px);align-items:start}
+.gives>*{min-width:0}
+.gives .photo{aspect-ratio:3/2}
+.feelings{list-style:none;padding:0;margin:0}
+.feelings li{display:grid;grid-template-columns:7.5rem 1fr;gap:16px;padding:16px 0;border-bottom:1px solid var(--rule-l);align-items:baseline}
+.feelings b{font-family:var(--display);font-weight:400;font-size:1.7rem;text-transform:uppercase;letter-spacing:.06em}
+@media (max-width:880px){.gives{grid-template-columns:1fr}}
+@media (max-width:480px){.feelings li{grid-template-columns:1fr;gap:2px}}
+
+/* PAIN */
+.pain{display:grid;grid-template-columns:5fr 6fr;gap:clamp(36px,6vw,80px);align-items:center}
+.pain>*{min-width:0}
+.pain .photo{aspect-ratio:2/3}
+.plist{list-style:none;padding:0;margin:0}
+.plist li{font-family:var(--display);font-size:1.6rem;line-height:1.3;padding:16px 0;border-bottom:1px solid var(--rule-d)}
+@media (max-width:880px){.pain{grid-template-columns:1fr}.pain .photo{aspect-ratio:3/2}}
+
+/* WHY */
+.why{display:grid;grid-template-columns:5fr 7fr;gap:clamp(36px,6vw,84px);align-items:start}
+.why>*{min-width:0}
+.why .photo{aspect-ratio:4/5;position:sticky;top:24px}
+.why .photo img{object-position:30% 50%}
+.nums{list-style:none;padding:0;margin:0}
+.nums li{display:grid;grid-template-columns:4.6rem 1fr;gap:18px;padding:24px 0;border-top:1px solid var(--rule-l)}
+.nums .n{font-family:var(--display);font-size:2.4rem;line-height:1}
+.nums h4{margin:0 0 6px}
+@media (max-width:880px){.why{grid-template-columns:1fr}.why .photo{aspect-ratio:3/2;position:relative}}
+
+/* METHOD */
+.method{display:grid;grid-template-columns:5fr 6fr;gap:clamp(36px,5vw,72px);align-items:center}
+.method>*{min-width:0}
+.orbit{width:100%;height:auto;max-width:620px;margin:0 auto;display:block}
+.orbit .ring{fill:none;stroke:var(--sand);stroke-width:1.6;stroke-dasharray:2 7;stroke-linecap:round}
+.orbit .ring2{fill:none;stroke:var(--rule-d);stroke-width:1}
+.orbit .dot{fill:var(--sand)}
+.orbit .dot.main{fill:var(--white)}
+.orbit text{fill:var(--white);font-family:var(--sans);font-weight:300}
+.orbit .lbl{font-size:18px}
+.orbit .lbl.main{font-size:19px;font-weight:600;letter-spacing:.14em}
+.orbit .ctr{text-anchor:middle}
+.orbit .cap2{font-size:13px;letter-spacing:.28em;fill:var(--gray-d);font-weight:500}
+.orbit .big{font-family:var(--display);font-size:36px;letter-spacing:.04em}
+@media (max-width:880px){.method{grid-template-columns:1fr}}
+
+/* PATH */
+.path{list-style:none;padding:0;margin:48px 0 0;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--rule-l)}
+.path li{padding:26px 22px 0 0;min-width:0;display:flex;flex-direction:column;gap:8px}
+.path li+li{padding-left:22px;border-left:1px solid var(--rule-l)}
+.path .n{font-family:var(--display);font-size:2.4rem;line-height:1}
+.path b{font-family:var(--display);font-weight:400;font-size:1.55rem;line-height:1.2}
+.path span{font-size:.95rem}
+@media (max-width:900px){.path{grid-template-columns:1fr}.path li,.path li+li{padding:22px 0;border-left:0;border-bottom:1px solid var(--rule-l)}}
+
+/* NEED */
+.need{display:grid;grid-template-columns:1fr 1fr;margin-top:48px;border-top:1px solid var(--rule-l)}
+.need>div{padding:30px 34px 0 0;min-width:0}
+.need>div+div{padding:30px 0 0 34px;border-left:1px solid var(--rule-l)}
+.need ul{list-style:none;padding:0;margin:18px 0 0}
+.need li{font-family:var(--display);font-size:1.55rem;line-height:1.25;padding:15px 0;border-bottom:1px solid var(--rule-l)}
+.need .no li{color:var(--gray);text-decoration:line-through;text-decoration-thickness:1px}
+@media (max-width:780px){.need{grid-template-columns:1fr}.need>div,.need>div+div{padding:26px 0 0;border-left:0}}
+
+/* QUOTE */
+.quotefeat{position:relative;min-height:min(80vh,680px);display:flex;align-items:center;color:var(--white);background:var(--black)}
+.quotefeat .photo{position:absolute;inset:0}
+.quotefeat .photo::before{content:"";position:absolute;inset:0;z-index:1;background:rgba(0,0,0,.45)}
+.quotefeat .wrap{position:relative;z-index:2;width:100%;padding-block:80px}
+.quotefeat blockquote{margin:0 auto;max-width:900px;text-align:center;font-family:var(--display);font-size:clamp(2rem,5vw,3.6rem);line-height:1.2;text-transform:uppercase;letter-spacing:.06em}
+.quotefeat blockquote::before{content:"“";display:block;font-size:5rem;line-height:.6;margin-bottom:22px}
+.quotefeat cite{display:block;margin-top:26px;text-align:center;font-style:normal}
+
+/* FIT */
+.fit{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,80px);margin-top:40px}
+.fit>div{min-width:0}
+.fit ul{list-style:none;padding:0;margin:0}
+.fit li{display:grid;grid-template-columns:28px 1fr;padding:14px 0;border-bottom:1px solid var(--rule-l)}
+.fit li::before{content:"✓"}
+.fit .notyet li::before{content:"✕";color:var(--gray)}
+.fit .notyet li{color:var(--gray)}
+@media (max-width:780px){.fit{grid-template-columns:1fr}}
+
+/* FREE */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:44px}
+.opt{border:1px solid var(--rule-l);display:flex;flex-direction:column;min-width:0}
+.dark .opt,.char .opt{border-color:var(--rule-d)}
+.opt .photo{aspect-ratio:16/9}
+.opt .body{padding:26px 26px 28px;display:flex;flex-direction:column;gap:12px;flex:1}
+.opt .btns{margin-top:auto;padding-top:8px}
+@media (max-width:780px){.two{grid-template-columns:1fr}}
+
+/* CURRICULUM */
+.cur{display:grid;grid-template-columns:7fr 4fr;gap:clamp(36px,5vw,64px);align-items:start;margin-top:48px}
+.cur>*{min-width:0}
+.cur .photo{aspect-ratio:3/4;position:sticky;top:24px}
+.pillars{list-style:none;padding:0;margin:0;border-top:1px solid var(--rule-l)}
+.pillars li{display:grid;grid-template-columns:4rem minmax(0,1fr);gap:8px 22px;padding:26px 0;border-bottom:1px solid var(--rule-l)}
+.pillars .n{font-family:var(--display);font-size:2.6rem;line-height:1;grid-row:span 2}
+.pillars h3{font-size:1.5rem;text-transform:uppercase;letter-spacing:.08em;line-height:1.25}
+.pillars h3 span{display:block;font-family:var(--sans);font-size:.68rem;font-weight:500;letter-spacing:.24em;color:#8a7558;margin-top:8px}
+.pillars p{color:var(--gray)}
+@media (max-width:880px){.cur{grid-template-columns:1fr}.cur .photo{position:relative;aspect-ratio:3/2}}
+
+/* TIERS */
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);margin-top:48px;border-top:1px solid var(--rule-d)}
+.tier{padding:30px 28px 8px;display:flex;flex-direction:column;gap:12px;min-width:0;border-left:1px solid var(--rule-d)}
+.tier:first-child{border-left:0;padding-left:0}
+.tier ul{list-style:none;padding:0;margin:6px 0 0;display:flex;flex-direction:column;gap:10px}
+.tier li{padding-left:24px;position:relative}
+.tier li::before{content:"✓";position:absolute;left:0;color:var(--sand);font-size:.9rem}
+.tier li span{display:block;color:var(--gray-d);font-size:.92rem}
+.tier .date{font-weight:600;color:var(--white)}
+@media (max-width:900px){.tiers{grid-template-columns:1fr}.tier{border-left:0;padding:28px 0 8px;border-top:1px solid var(--rule-d)}.tier:first-child{border-top:0}}
+
+/* PRICES */
+.prices{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:48px}
+.price{background:var(--white);border:1px solid var(--rule-l);padding:30px 26px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.price.feature{background:var(--black);color:var(--white);border-color:var(--black)}
+.price.feature .muted{color:var(--gray-d)}
+.amt{font-family:var(--display);font-size:3.6rem;line-height:1;font-variant-numeric:tabular-nums}
+.amt small{font-family:var(--sans);font-size:.72rem;letter-spacing:.2em;margin-left:6px}
+.price ul{list-style:none;padding:0;margin:6px 0 auto;display:flex;flex-direction:column;gap:8px;font-size:.95rem}
+.price li{padding-left:22px;position:relative}
+.price li::before{content:"✓";position:absolute;left:0;font-size:.85rem}
+.price.feature li::before{color:var(--sand)}
+.price .btn{margin-top:16px}
+.timeline{border-top:1px solid var(--rule-d);border-bottom:1px solid var(--rule-d);padding:12px 0;display:flex;flex-direction:column;gap:6px;font-size:.95rem}
+.timeline div{display:flex;justify-content:space-between;gap:12px}
+.timeline b{font-family:var(--display);font-size:1.45rem;font-weight:400;font-variant-numeric:tabular-nums}
+.pnote{margin-top:28px;border-top:1px solid var(--rule-l);padding-top:24px;max-width:860px;display:flex;flex-direction:column;gap:10px}
+.ess{margin-top:56px;display:grid;grid-template-columns:2fr 3fr;background:var(--white);border:1px solid var(--rule-l);min-width:0}
+.ess .photo{min-height:280px}
+.ess .body{padding:32px 30px;display:flex;flex-direction:column;gap:12px}
+@media (max-width:960px){.prices{grid-template-columns:1fr}}
+@media (max-width:700px){.ess{grid-template-columns:1fr}.ess .photo{aspect-ratio:3/2;min-height:0}}
+
+/* ABOUT */
+.about{display:grid;grid-template-columns:5fr 7fr;gap:clamp(36px,6vw,84px);align-items:start}
+.about>*{min-width:0}
+.about .lead{aspect-ratio:2/3;position:sticky;top:24px}
+.inset{display:grid;grid-template-columns:2fr 3fr;gap:26px;align-items:center}
+.inset .photo{aspect-ratio:2/3}
+.names{display:flex;flex-wrap:wrap;gap:6px 10px}
+.names span{font-family:var(--display);font-size:1.35rem}
+.names span:not(:last-child)::after{content:"·";margin-left:10px;color:var(--gray-d)}
+.words{font-family:var(--display);font-size:1.7rem;line-height:1.3;border-left:1px solid var(--sand);padding-left:20px}
+@media (max-width:880px){.about{grid-template-columns:1fr}.about .lead{position:relative;max-width:520px}}
+@media (max-width:560px){.inset{grid-template-columns:1fr}}
+
+/* GRADUATES */
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,80px);margin-top:48px}
+.quotes figure{margin:0;display:flex;flex-direction:column;gap:20px;min-width:0;padding-top:26px;border-top:1px solid var(--rule-l)}
+.quotes .mark{font-family:var(--display);font-size:4.4rem;line-height:.5;height:24px}
+.quotes blockquote{margin:0;font-size:1.06rem;line-height:1.75;display:flex;flex-direction:column;gap:14px}
+@media (max-width:820px){.quotes{grid-template-columns:1fr}}
+.videos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:56px}
+.vid{position:relative;display:block;aspect-ratio:4/5;overflow:hidden;text-decoration:none;color:var(--white)}
+.vid img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.vid:hover img{transform:scale(1.03)}
+.vid::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(0,0,0,.8));z-index:1}
+.vid .play{position:absolute;top:44%;left:50%;transform:translate(-50%,-50%);z-index:2;width:64px;height:64px;border:1px solid var(--white);border-radius:50%;display:grid;place-items:center;background:rgba(0,0,0,.25)}
+.vid .play::after{content:"";border-left:14px solid var(--white);border-top:9px solid transparent;border-bottom:9px solid transparent;margin-left:4px}
+.vid .meta{position:absolute;left:20px;right:20px;bottom:18px;z-index:2;display:flex;flex-direction:column;gap:4px}
+.vid .meta b{font-family:var(--display);font-weight:400;font-size:1.6rem}
+@media (max-width:820px){.videos{grid-template-columns:1fr}.vid{aspect-ratio:4/3}}
+.kind{columns:3 240px;column-gap:14px;margin-top:28px}
+.kind img{width:100%;height:auto;margin-bottom:14px;break-inside:avoid;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+
+/* FAQ */
+.faq{margin-top:40px;border-top:1px solid var(--rule-l);max-width:860px}
+details{border-bottom:1px solid var(--rule-l)}
+summary{cursor:pointer;list-style:none;padding:20px 44px 20px 0;font-family:var(--display);font-size:1.55rem;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:6px;top:14px;font-family:var(--sans);font-size:1.6rem;font-weight:300;transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 0 22px;color:var(--gray);max-width:66ch}
+details p+p{margin-top:-10px}
+.callcard{margin-top:48px;background:var(--black);color:var(--white);padding:32px 30px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:22px;max-width:860px}
+.callcard>div{max-width:540px;display:flex;flex-direction:column;gap:10px}
+.callcard .muted{color:var(--gray-d)}
+
+.mail{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,80px);align-items:center}
+.mail>*{min-width:0}
+@media (max-width:780px){.mail{grid-template-columns:1fr}}
+footer{background:var(--black);color:var(--gray-d);padding-block:30px;font-size:.85rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
+footer a{text-decoration:none}
+footer a:hover{color:var(--white)}
+.rise{animation:rise 1s ease-out both}.rise.d2{animation-delay:.15s}
+@keyframes rise{from{transform:translateY(12px)}to{transform:none}}
+
+/* v10 additions */
+.brown{background:#4a3a2c;color:var(--white)}
+.brown .muted{color:#d9cbbb}
+.brown .opt{border-color:rgba(247,246,243,.22)}
+.brown .btn.solid{background:var(--white);color:#4a3a2c;border-color:var(--white)}
+.tan{background:#e4d9ca}
+.hero{align-items:center;overflow:hidden}
+.hero .wrap{padding-block:0 14vh}
+@media (max-width:700px){.hero .wrap{padding-block:6vh 0}}
+.hero .photo::before{background:radial-gradient(ellipse at 50% 46%,rgba(0,0,0,.45) 0%,rgba(0,0,0,.15) 55%,rgba(0,0,0,.25) 100%)}
+.hero h1,.hero .sub{text-align:center;margin-left:auto;margin-right:auto}
+.hero .sub{border-top:0;padding-top:0}
+.single{background:var(--black);padding:8px}
+.single .photo{aspect-ratio:16/9;max-height:80vh;margin:0 auto}
+.single .photo img{object-position:50% 40%}
+@media (max-width:700px){.single .photo{aspect-ratio:4/5}}
+.photocta{position:relative;min-height:min(78vh,640px);display:flex;align-items:center;padding-block:80px;color:var(--white);background:var(--black)}
+.photocta .photo{position:absolute;inset:0}
+.photocta .photo::before{content:"";position:absolute;inset:0;z-index:1;background:rgba(0,0,0,.35)}
+.photocta .wrap{position:relative;z-index:2;width:100%}
+.photocta .box{margin:0 auto;max-width:720px;border:1px solid rgba(255,255,255,.85);padding:clamp(32px,6vw,64px) clamp(20px,5vw,56px);text-align:center;display:flex;flex-direction:column;align-items:center;gap:28px;background:rgba(0,0,0,.18)}
+.photocta .title{font-size:clamp(2rem,5vw,3.4rem)}
+.quotefeat blockquote::after{content:"”";display:block;font-size:5rem;line-height:.6;margin-top:34px}
+/* one rule at a time: no stacked lines */
+.path li:last-child,.fit li:last-child,.plist li:last-child,.feelings li:last-child,.need li:last-child,.pillars li:last-child,.faq details:last-child{border-bottom:0}
+.ctaband{border-top:0!important;padding-top:0}
+@media (max-width:900px){.path li:last-child{border-bottom:0}}
+/* readable FAQ */
+summary{font-family:var(--sans);font-weight:500;font-size:1.08rem;line-height:1.45;letter-spacing:0}
+details p{color:#3d3d3b;font-size:1rem}
+.faq{border-top:0}
+.callcard h3{font-size:1.7rem}
+
+/* v11 */
+h2,.title,h3,h4{font-family:"Cormorant Garamond","Cormorant",Georgia,serif;font-weight:500}
+h2,.title{letter-spacing:.08em}
+h3{font-size:1.9rem;letter-spacing:.01em}
+.hero h1,.quotefeat blockquote{font-family:var(--display);font-weight:400}
+.hero .photo.framed::after{inset:14px}
+.vidsec{display:grid;grid-template-columns:1fr minmax(0,420px);gap:clamp(32px,6vw,80px);align-items:center}
+.vidsec>*{min-width:0}
+.vidwrap{aspect-ratio:2/3;max-width:420px;width:100%;justify-self:center;background:#000;position:relative}
+.vidwrap::after{content:"";position:absolute;inset:12px;border:1px solid rgba(255,255,255,.85);pointer-events:none}
+.vidwrap video{width:100%;height:100%;object-fit:cover;display:block}
+@media (max-width:780px){.vidsec{grid-template-columns:1fr}}
+.topimg{background:var(--char)}
+.topimg img{width:100%;max-height:78vh;object-fit:cover;object-position:50% 40%}
+footer{border-top:1px solid var(--rule-d)}
+
+/* v12 */
+.photo,.framed{position:relative}
+.hero .photo,.quotefeat .photo,.photocta .photo{position:absolute}
+html,body{margin:0;padding:0}
+html{background:var(--black)}
+body{overflow-x:hidden}
+.char .nums li{border-top-color:var(--rule-d)}
+.char .why .muted strong{color:var(--white)}
+#video .muted{color:var(--gray)}
+#video .vidwrap::after{display:none}
+#resources .opt{border-color:var(--rule-l)}
+#resources .btn.solid{background:var(--ink);color:var(--white);border-color:var(--ink)}
+#resources .muted{color:#55524c}
+#newsletter{background:var(--white);border-top:1px solid var(--rule-l)}
+footer{border-top:0}
+
+/* v13 */
+.cream{background:#f4efe6;color:var(--ink)}
+.cream .muted{color:#55524c}
+.cream .opt{border-color:var(--rule-l)}
+.cream .btn.solid{background:var(--ink);color:var(--white);border-color:var(--ink)}
+#resources .muted{color:#55524c}
+#newsletter{background:var(--black);color:var(--white);border-top:0}
+#newsletter .lede{color:var(--white)}
+footer{background:var(--white);color:var(--gray);border-top:1px solid var(--rule-l)}
+footer a:hover{color:var(--ink)}
+#free .muted{color:var(--gray)}
+#free .opt{border-color:var(--rule-l)}
+#free .btn.solid{background:var(--ink);color:var(--white);border-color:var(--ink)}
+.single{padding:0;background:none}
+.single .photo{aspect-ratio:auto;max-height:none;background:none}
+.single .photo img{width:100%;height:auto;display:block}
+@media (max-width:700px){.single .photo{aspect-ratio:auto}}
+.cur.nophoto{grid-template-columns:1fr}
+
+/* v15 */
+.gallery4{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:0;background:var(--white)}
+.gallery4 .photo{aspect-ratio:3/4;background:none}
+@media (max-width:780px){.gallery4{grid-template-columns:1fr 1fr}}
+.venue{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin-top:40px}
+.venue .photo{aspect-ratio:4/5;background:none}
+.venue .photo.wide{aspect-ratio:auto}
+@media (max-width:780px){.venue{grid-template-columns:1fr 1fr}.venue .wide{grid-column:1/3;aspect-ratio:3/2!important}}
+
+/* v17 */
+.gallery4.g3{grid-template-columns:repeat(3,1fr)}
+@media (max-width:780px){.gallery4.g3{grid-template-columns:1fr 1fr}.gallery4.g3 .photo:first-child{grid-column:1/3;aspect-ratio:4/5}}
+.venue{grid-template-columns:1fr 1fr}
+.venue .photo.wide{grid-column:1/3;aspect-ratio:16/9}
+.venue .photo{aspect-ratio:4/5}
+.callcta .box{max-width:760px}
+.callcta .box>div{display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center}
+.callcta .muted{color:#e7e5e0}
+.callcta h3{font-size:clamp(1.8rem,4vw,2.6rem)}
+.nform{display:flex;flex-direction:column;gap:8px}.nrow{display:flex;flex-wrap:wrap;gap:10px}.nrow input{flex:1 1 220px;min-width:0;padding:15px 16px;border:1px solid rgba(247,246,243,.35);background:transparent;color:var(--white);font:inherit}.nrow input::placeholder{color:#a9a8a3}.nrow button{cursor:pointer;font:inherit;font-size:.74rem}
+:root{padding:0}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="photo"><img src="img/hero.jpg" alt="A joyful group of Momentum dancers in a dark wooden studio in Bali, arms raised"></div>
+  <div class="wrap">
+    <h1 class="rise">Momentum Contact<span>Facilitator Training</span></h1>
+    <p class="sub cap rise d2">50-hour certification · Online + Ubud, Bali</p>
+  </div>
+</header>
+<section class="dark" id="pain">
+  <div class="wrap pain">
+    <div class="photo"><img src="img/group-steps.jpg" alt="A Momentum training group smiling together on garden steps" style="object-position:50% 45%"></div>
+    <div class="stack">
+      <p class="cap hi">Sound familiar?</p>
+      <h2>You love contact. Now you want more of it where you live.</h2>
+      <ul class="plist">
+        <li>There's no contact community where you live, and you want to build one from scratch.</li>
+        <li>You've started teaching, and organizing everything takes far more than you expected.</li>
+        <li>You're not sure how to give your students feedback.</li>
+        <li>You don't know where to run a class, or how to get people to come.</li>
+      </ul>
+      <p class="lede muted">Momentum gives you the structure, the skills and the confidence to start.</p>
+    </div>
+  </div>
+</section>
+<section class="mist" id="video">
+  <div class="wrap vidsec">
+    <div class="stack">
+      <p class="cap hi">Inside Momentum</p>
+      <h2>Feel the room</h2>
+      <p class="lede muted">Inside a Momentum workshop in Uluwatu, Bali: the skills, the play, and the people you'll learn to hold.</p>
+    </div>
+    <div class="vidwrap"><video src="img/promo.mp4" poster="img/promo-poster.jpg" autoplay muted loop playsinline controls preload="metadata" aria-label="Momentum workshop promo video"></video></div>
+  </div>
+</section>
+<section class="char" id="why">
+  <div class="wrap why">
+    <div class="photo framed"><img src="img/teach.jpg" alt="Aalia demonstrating to seated students on a wooden studio floor"></div>
+    <div class="stack">
+      <h2>Why join</h2>
+      <p class="lede muted">Most contact intensives make you a better dancer. Momentum trains you to be <strong>the person who runs the class, hosts the jam and fills the workshop.</strong></p>
+      <ol class="nums">
+        <li><span class="n">01/</span><div><h4>A method that's been tested</h4><p class="muted">Built from <strong>more than 45 editions</strong> of the Momentum Contact Fundamentals workshop in Bali, Thailand and Canada since 2020.</p></div></li>
+        <li><span class="n">02/</span><div><h4>You teach real students</h4><p class="muted">In Level 2 you <strong>teach inside a live Momentum workshop</strong> and get feedback from Aalia on your teaching style.</p></div></li>
+        <li><span class="n">03/</span><div><h4>Leadership, facilitation and ethics</h4><p class="muted">How to hold a room, set a container and lead with integrity. <strong>The side most dancers are never taught.</strong></p></div></li>
+        <li><span class="n">04/</span><div><h4>The business of dance</h4><p class="muted">Marketing, social media, sourcing venues and building sign-up forms, so <strong>people actually come to your class.</strong></p></div></li>
+        <li><span class="n">05/</span><div><h4>Make it your own</h4><p class="muted">Momentum is one perspective on contact, not a rulebook. Part of your coaching is <strong>shaping the material to suit your community</strong> and your vision.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="gallery4 g3" aria-label="Moments from Momentum trainings">
+  <div class="photo"><img src="img/duo.jpg" alt="Two dancers sitting back to back on a dark wooden floor, laughing" loading="lazy"></div>
+  <div class="photo"><img src="img/adjust-shoulder.jpg" alt="Aalia adjusting a student's shoulders in a bamboo studio" loading="lazy"></div>
+  <div class="photo"><img src="img/hug.jpg" alt="Aalia hugging a graduate outside the studio" loading="lazy"></div>
+</section>
+<section id="students">
+  <div class="wrap">
+    <div class="head">
+      <p class="cap hi">Before you teach</p>
+      <h2>What your contact students actually need from you</h2>
+    </div>
+    <div class="need">
+      <div class="no">
+        <p class="cap muted">They don't need</p>
+        <ul><li>The most acrobatic dancer in the room</li><li>Your most impressive lift on a reel</li><li>Choreography to copy</li><li>A teacher with every answer</li></ul>
+      </div>
+      <div class="yes">
+        <p class="cap">They do need</p>
+        <ul><li>Contact skills broken down so their body understands</li><li>A room safe enough to open up to connection and conversation</li><li>Clear structure and clear consent</li><li>Your presence, permission and authenticity</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="single"><div class="photo"><img src="img/circle.jpg" alt="Dancers sitting in a circle on a dark wooden floor, clapping together" loading="lazy"></div></div>
+<section class="mist" id="fit">
+  <div class="wrap">
+    <div class="head">
+      <p class="cap hi">Is this for you?</p>
+      <h2>Who this training is for</h2>
+    </div>
+    <div class="fit">
+      <ul>
+        <li>A contact dancer who feels ready to start teaching or hosting jams</li>
+        <li>Wanting to grow a contact community where you live, even where none exists yet</li>
+        <li>A bodyworker, coach or therapist bringing movement into your work</li>
+        <li>Someone who wants structure, mentorship and real skills</li>
+        <li>Curious, willing to practice and ready to lead</li>
+      </ul>
+      <div class="notyet">
+        <p class="cap muted" style="margin-bottom:6px">Not for you yet, if you're</p>
+        <ul>
+          <li>Only interested in performing, choreography or learning contact for yourself. A festival or workshop is the better fit.</li>
+          <li>Not ready to take responsibility for a group</li>
+          <li>Not ready to put in the practice, the reflection and the time</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="quotefeat" id="quote" aria-label="Quote">
+  <div class="photo"><img src="img/quote.jpg" alt="Dancers rolling over each other in a dark studio" loading="lazy"></div>
+  <div class="wrap">
+    <blockquote>Dancing contact and teaching contact are two different skills. Momentum trains the second one.</blockquote>
+    <cite class="cap hi">Aalia Hashem</cite>
+  </div>
+</section>
+<div class="facts"><div class="wrap"><ul>
+  <li><span class="cap">Level 1 · Group cohort · Online</span><b>Begins Nov 3, 2026</b></li>
+  <li><span class="cap">Level 2 · In person · Ubud</span><b>Feb 15–22, 2027</b></li>
+  <li><span class="cap">Level 1 · Self-paced · Online</span><b>Start anytime</b></li>
+  <li><span class="cap">Graduates teaching in</span><b>6 countries</b></li>
+</ul></div></div>
+<section id="pathway">
+  <div class="wrap">
+    <div class="head">
+      <p class="cap hi">How it works</p>
+      <h2>The pathway</h2>
+    </div>
+    <ol class="path">
+      <li><span class="n">01/</span><b>Join Level 1</b><span class="muted">Online, self-paced or with the group cohort.</span></li>
+      <li><span class="n">02/</span><b>Apply for Level 2</b><span class="muted">Intake form. Minimum one year of contact practice.</span></li>
+      <li><span class="n">03/</span><b>Momentum Contact Certification</b><span class="muted">Train with a new group over 7 days in Ubud.</span></li>
+      <li><span class="n">04/</span><b>Lead on your own</b><span class="muted">You'll leave ready to teach the Momentum Method your way, in classes, jams, workshops and retreats.</span></li>
+    </ol>
+  </div>
+</section>
+<div class="single"><div class="photo"><img src="img/lift.jpg" alt="Two dancers in a counterbalance lift under a bamboo roof" style="object-position:50% 40%" loading="lazy"></div></div>
+<section class="dark" id="method">
+  <div class="wrap method">
+    <div class="stack">
+      <p class="cap hi">Level 2 · In person</p>
+      <h2>More than contact</h2>
+      <p class="lede muted">You'll leave able to teach the Momentum Contact Fundamentals workshop. <strong>About half is contact improvisation skills.</strong> The rest is a whole set of movement practices you can share.</p>
+    </div>
+    <div><svg class="orbit" viewBox="0 0 640 620" role="img" aria-label="The Momentum Method: contact improvisation at the top, surrounded by dance improvisation, contemporary floorwork, bodywork, qigong, authentic movement, creative improvisation, Bartenieff Fundamentals and leading group conversations">
+<circle cx="320" cy="318" r="165" class="ring"/>
+<circle cx="320" cy="318" r="119" class="ring2"/>
+<text x="320" y="296" class="ctr cap2">MOMENTUM CONTACT</text>
+<text x="320" y="332" class="ctr big">Fundamentals</text>
+<text x="320" y="366" class="ctr big">Method</text>
+<circle cx="320" cy="153" r="11" class="dot main"/>
+<text x="320" y="105" class="lbl main" text-anchor="middle">CONTACT</text>
+<text x="320" y="129" class="lbl main" text-anchor="middle">IMPROVISATION</text>
+<circle cx="426.1" cy="191.6" r="6.5" class="dot"/>
+<text x="440.8" y="169.0" class="lbl" text-anchor="start">Dance</text>
+<text x="440.8" y="191.0" class="lbl" text-anchor="start">improvisation</text>
+<circle cx="482.5" cy="289.3" r="6.5" class="dot"/>
+<text x="505.1" y="280.4" class="lbl" text-anchor="start">Contemporary</text>
+<text x="505.1" y="302.4" class="lbl" text-anchor="start">floorwork</text>
+<circle cx="462.9" cy="400.5" r="6.5" class="dot"/>
+<text x="482.8" y="418.0" class="lbl" text-anchor="start">Bodywork</text>
+<circle cx="376.4" cy="473.0" r="6.5" class="dot"/>
+<text x="384.3" y="514.7" class="lbl" text-anchor="start">Qigong</text>
+<circle cx="263.6" cy="473.0" r="6.5" class="dot"/>
+<text x="255.7" y="503.7" class="lbl" text-anchor="end">Authentic</text>
+<text x="255.7" y="525.7" class="lbl" text-anchor="end">movement</text>
+<circle cx="177.1" cy="400.5" r="6.5" class="dot"/>
+<text x="157.2" y="407.0" class="lbl" text-anchor="end">Creative</text>
+<text x="157.2" y="429.0" class="lbl" text-anchor="end">improvisation</text>
+<circle cx="157.5" cy="289.3" r="6.5" class="dot"/>
+<text x="134.9" y="280.4" class="lbl" text-anchor="end">Bartenieff</text>
+<text x="134.9" y="302.4" class="lbl" text-anchor="end">Fundamentals</text>
+<circle cx="213.9" cy="191.6" r="6.5" class="dot"/>
+<text x="199.2" y="169.0" class="lbl" text-anchor="end">Leading group</text>
+<text x="199.2" y="191.0" class="lbl" text-anchor="end">conversations</text>
+</svg></div>
+  </div>
+</section>
+<section class="photocta">
+  <div class="photo"><img src="img/garden.jpg" alt="Two dancers in a supported lean under a thatched roof" style="object-position:50% 35%" loading="lazy"></div>
+  <div class="wrap"><div class="box">
+    <p class="title">Bring contact home to your community</p>
+    <a class="btn light" href="#investment">I'm ready to apply</a>
+  </div></div>
+</section>
+<section id="curriculum">
+  <div class="wrap">
+    <div class="head">
+      <p class="cap hi">The curriculum</p>
+      <h2>What you'll learn</h2>
+    </div>
+    <div class="cur">
+      <ol class="pillars">
+        <li><span class="n">01</span><h3>Hosting Contact Jams<span>Level 1 · Online</span></h3><p><strong>Inclusive jam spaces</strong>, consent, community guidelines, music and injury care.</p></li>
+        <li><span class="n">02</span><h3>Leadership, Facilitation &amp; Ethics<span>Level 1 · Online</span></h3><p>Holding a group, <strong>class design with timing and structure</strong>, ethics and challenging moments.</p></li>
+        <li><span class="n">03</span><h3>The Business of Dance<span>Level 1 · Online</span></h3><p>Marketing, social media, venues, <strong>sign-up forms</strong> and your dance bio.</p></li>
+        <li><span class="n">04</span><h3>The Momentum Method<span>Level 2 · In person</span></h3><p>Learn to facilitate and teach the Momentum skills <strong>with practice time and feedback</strong>.</p></li>
+      </ol>
+      <div class="photo framed"><img src="img/adjust-floor.jpg" alt="Aalia guiding a student on all fours under a thatched roof" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+<div class="topimg"><img src="img/bw.jpg" alt="Black and white overhead shot of dancers on the floor" loading="lazy"></div>
+<section class="char" id="levels" style="padding-top:clamp(48px,7vw,80px)">
+  <div class="wrap">
+    <div class="head">
+      <p class="cap hi">Each level</p>
+      <h2>The levels</h2>
+    </div>
+    <div class="tiers">
+      <div class="tier">
+        <p class="cap hi">Level 1 · Online · Self-paced</p>
+        <h3>Teaching Contact Improvisation Fundamentals</h3>
+        <p class="muted">The online course. About 15 hours of learning in total, at your own pace. Open to <strong>anyone who intends to teach contact or host jams.</strong></p>
+        <ul>
+          <li>Video lessons across all three pillars</li>
+          <li>Pre-recorded coaching calls<span>From our 2025 cohort</span></li>
+          <li>Practical homework to build your own class plans</li>
+          <li>Online contact improvisation library</li>
+          <li>1:1 coaching call with Aalia</li>
+        </ul>
+      </div>
+      <div class="tier">
+        <p class="cap hi">Level 1 · Online · Group cohort</p>
+        <h3>The Same Course, 4-Week Group</h3>
+        <p class="date">Begins November 3, 2026</p>
+        <p class="muted"><strong>For accountability and more coaching with Aalia.</strong> We go through the course together, week by week.</p>
+        <ul>
+          <li>Everything in the self-paced course</li>
+          <li>4 weeks of live group coaching calls with Aalia</li>
+          <li>Calls recorded if you miss one</li>
+        </ul>
+      </div>
+      <div class="tier">
+        <p class="cap hi">Level 2 · In person · Ubud, Bali</p>
+        <h3>Momentum Mentorship Certification</h3>
+        <p class="muted">35 hours over 7 days. An <strong>embodied, live training</strong>: you learn leadership by teaching together.</p>
+        <ul>
+          <li>The Momentum Method in full<span>Every skill of the Momentum workshop, taught 45+ times since 2020</span></li>
+          <li>Teach inside a live Momentum workshop<span>With feedback from Aalia on your teaching style</span></li>
+          <li>60+ page Momentum Contact Manual and Spotify playlists</li>
+                    <li>1:1 business and marketing session<span>Tailored to your own community and vision</span></li>
+          <li>Contact Body online course to review the skills</li>
+          <li>Integration coaching call with Aalia<span>Valid for 3 months after the training</span></li>
+          <li>Momentum Contact Certification</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="single"><div class="photo"><img src="img/dark-lift.jpg" alt="Aalia lifting a partner with a tattooed back in a dark studio" loading="lazy"></div></div>
+<section id="graduates">
+  <div class="wrap">
+    <div class="head">
+      <p class="cap hi">Graduates come from China, the United States, Russia, Portugal, Korea and Ireland</p>
+      <h2>What graduates say about the training</h2>
+      <p class="lede muted">Graduates of ours have come from all kinds of backgrounds: retreat owners, tech workers, university students, a nurse, dance professionals, and yoga and somatic teachers. They found contact, fell in love, and wanted to share it with their own community.</p>
+    </div>
+    <div class="quotes">
+      <figure>
+        <span class="mark">“</span>
+        <blockquote>
+          <p>This journey was about exploring my inner self and expanding the boundaries of my world. We learned the history and culture of CI, contact skills, and practical tools for dancing safely, plus marketing, space holding, and how to work with venues. It was more than dance: it prepared us to become independent facilitators.</p>
+          <p>Before, I wasn't sure if I had enough experience or confidence. But with Aalia's trust and guidance, it happened naturally. This training gave me not just knowledge, but clarity, confidence, and support. I feel so lucky to be part of this, and I can't wait to share it with my contact community in China. If you want to be a facilitator, join us. It's so worthwhile!</p>
+        </blockquote>
+        <figcaption class="cap">Sunny Zheng · China</figcaption>
+      </figure>
+      <figure>
+        <span class="mark">“</span>
+        <blockquote>
+          <p>Beyond the technical skills, I really valued seeing how Aalia manages the group, the energy, and the flow of a workshop. I didn't realize how much thought goes into that. It's the difference between a good workshop and a great one.</p>
+          <p>I had the chance to both attend and teach during the Momentum Workshop, with lots of 1:1 time and an amazing community. Completing this training feels like a big win, and I'm excited to share it at my retreat centre in Portugal.</p>
+        </blockquote>
+        <figcaption class="cap">Andy Chen · USA / Portugal · Owner, Casa Eira</figcaption>
+      </figure>
+    </div>
+    <div class="videos">
+      <a class="vid" href="https://youtu.be/b1PUrP-MBxY" target="_blank" rel="noopener"><img src="img/v-sunny.jpg" alt="Sunny Zheng laughing and holding her Momentum certificate" loading="lazy"><span class="play"></span><span class="meta"><span class="cap">Video interview</span><b>Sunny Zheng · China</b></span></a>
+      <a class="vid" href="https://youtu.be/aDRHl9auYcA" target="_blank" rel="noopener"><img src="img/v-janice.jpg" alt="Janice smiling and holding her Momentum certificate" loading="lazy"><span class="play"></span><span class="meta"><span class="cap">Video interview</span><b>Janice · USA</b></span></a>
+      <a class="vid" href="https://youtu.be/mT8ObUfKm0s" target="_blank" rel="noopener"><img src="img/thatched-circle.jpg" alt="A Momentum group sitting in a circle under a thatched roof" loading="lazy"><span class="play"></span><span class="meta"><span class="cap">Video interview</span><b>Caoimhe Day Rush · Ireland</b></span></a>
+    </div>
+  </div>
+</section>
+<section class="photocta">
+  <div class="photo"><img src="img/laughs.jpg" alt="Dancers laughing together in a dark studio" style="object-position:50% 40%" loading="lazy"></div>
+  <div class="wrap"><div class="box">
+    <p class="title">Ready to create more meaningful dance spaces?</p>
+    <a class="btn light" href="#investment">Join the training</a>
+  </div></div>
+</section>
+<section class="mist" id="kind">
+  <div class="wrap">
+    <div class="head">
+      <p class="cap hi">Kind words</p>
+      <h3>What Momentum workshop dancers say</h3>
+    </div>
+    <div class="kind">
+      <img src="img/k6.jpg" alt="Dancers of Momentum feedback over a photo of two smiling dancers" loading="lazy">
+      <img src="img/k3.jpg" alt="Feedback that Momentum was a playful, informative way to explore contact" loading="lazy">
+      <img src="img/k1.jpg" alt="Message from a student thanking Aalia after a 21-day workshop" loading="lazy">
+      <img src="img/k4.jpg" alt="Review from Triss Tashi calling Momentum a fantastic experience" loading="lazy">
+      <img src="img/k5.jpg" alt="Quote from a man about reclaiming himself as a dancer" loading="lazy">
+      <img src="img/k2.jpg" alt="Message from a student describing two unforgettable days of contact" loading="lazy">
+    </div>
+  </div>
+</section>
+<section class="dark" id="aalia">
+  <div class="wrap about">
+    <div class="photo framed lead"><img src="img/aalia-shell.jpg" alt="Black and white portrait of Aalia holding a shell beside her face"></div>
+    <div class="stack">
+      <p class="cap hi">Founder and lead teacher</p>
+      <h2>Meet Aalia Hashem</h2>
+      <p class="lede">Contact Improvisation has guided my life since 2018. In 2020 I founded the <strong>Momentum workshop</strong>, and I've since taken <strong>hundreds of dancers</strong> through their first steps in contact, in Bali, Thailand, Canada and beyond.</p>
+      <p class="words">Students describe me as accessible, authentic, technical and strong, while being fun, approachable and present.</p>
+      <p class="muted">My journey began at Edam Dance Company, learning from the pioneers of Canadian contact. I've studied with <strong>over 50 contact teachers</strong>, and my movement background spans <strong>20 years</strong>, from contemporary and swing to bodywork and qigong. I'm a certified 200-hour Kundalini Hatha yoga teacher, and Contact Beyond Contact Level 1 first brought me to Ubud in 2019.</p>
+      <div class="inset">
+        <div class="photo framed"><img src="img/aalia-dance.jpg" alt="Aalia dancing in white in a bamboo studio" loading="lazy"></div>
+        <div class="stack" style="gap:16px">
+          <p class="muted">I host the Faces of CI podcast, founded the Contact Body online school, and direct dance films shown at Canada's Contact Dance Film Festival. I've been invited to teach at <strong>Bali Dance Festival, Georgia Silent Contact Festival, Towards CI50 Conference, Bali Bloom</strong> and Arcana Koh Phangan.</p>
+          <p class="muted">I've trained in facilitation and leadership with <strong>Rick Smith</strong>, an American teacher who has trained teachers across the United States and many of Bali's facilitators. Teaching runs in my family: my mom was a school and university teacher, and my dad taught driving, flying and hang gliding. In Human Design, my purpose is the Left Angle Cross of Education, <strong>a life devoted to teaching</strong>.</p>
+        </div>
+      </div>
+      <p class="cap hi" style="margin-top:4px">Influences</p>
+      <div class="names"><span>Andrew Harwood</span><span>Kirstie Simson</span><span>Peter Bingham</span><span>Martin Keogh</span><span>Leilani Weis</span><span>Sasha Dodo</span><span>Dolores Dewhurst-Marks</span><span>Vega Luukkonen</span></div>
+    </div>
+  </div>
+</section>
+<div class="single"><div class="photo"><img src="img/big-circle.jpg" alt="A large circle of dancers sitting under a thatched roof" loading="lazy"></div></div>
+<section class="mist" id="investment">
+  <div class="wrap">
+    <div class="head">
+      <p class="cap hi">Investment</p>
+      <h2>Ready to begin</h2>
+    </div>
+    <div class="prices">
+      <div class="price">
+        <p class="cap hi">Level 1 · Self-paced · Online</p>
+        <h3>Teaching Contact Improvisation Fundamentals</h3>
+        <p class="amt">$500<small>USD</small></p>
+        <p class="muted">Instant access</p>
+        <ul><li>About 15 hours of learning</li><li>Video lessons and pre-recorded coaching calls</li><li>Online contact library</li><li>1:1 coaching call</li></ul>
+        <a class="btn" href="https://buy.stripe.com/aFa14o16X44obT7cPPdEs2C" target="_blank" rel="noopener">Start now</a>
+      </div>
+      <div class="price">
+        <p class="cap hi">Level 1 · Group cohort · Online</p>
+        <h3>The Same Course, 4-Week Group</h3>
+        <p class="amt">$800<small>USD</small></p>
+        <p><strong>Begins November 3, 2026</strong> · small group</p>
+        <ul><li>Everything in self-paced</li><li>4 weeks of live coaching with Aalia</li><li>Weekly accountability</li></ul>
+        <a class="btn" href="https://buy.stripe.com/9B64gAcPF30k9KZaHHdEs2D" target="_blank" rel="noopener">Join the cohort</a>
+      </div>
+      <div class="price feature">
+        <p class="cap hi">Level 2 · By application</p>
+        <h3>Momentum Mentorship Certification</h3>
+        <p class="amt">$2,000<small>USD</small></p>
+        <div class="timeline">
+          <div><span>Early bird, register by Nov 30, 2026</span><b>$2,000</b></div>
+          <div class="muted"><span>After December 1, 2026</span><b>$2,300</b></div>
+        </div>
+        <ul><li>35 hours over 7 days, Feb 15–22, 2027, in Ubud, Bali</li><li>Teach in a live Momentum workshop</li><li>60+ page manual, playlists and Contact Body</li><li>Momentum Contact Certification</li></ul>
+        <a class="btn light" href="https://forms.gle/kMZb3aFbe6yWCCCf9" target="_blank" rel="noopener">Apply for Level 2</a>
+      </div>
+    </div>
+    <div class="pnote">
+      <p class="title md" style="font-size:1.6rem">Please note for Level 2</p>
+      <p class="muted">You need Level 1 and <strong>at least one year of contact practice</strong> to join Level 2. In <em>Dancing Deeper Still</em>, Martin Keogh, one of Aalia's contact teachers, suggests a year of dancing before teaching, and Aalia studied for nearly two years before she began. Level 1 has no requirement, so you can start now, build your practice alongside it, and join Level 2 later.</p>
+    </div>
+    <div class="ess">
+      <div class="photo"><img src="img/floor.jpg" alt="A dancer in a floral top moving across a wooden floor" style="object-position:50% 35%" loading="lazy"></div>
+      <div class="body">
+        <p class="cap hi">For dance teachers of all kinds</p>
+        <h3>Teaching Dance Essentials</h3>
+        <p class="muted">Not a contact teacher? Maybe you teach tribal fusion, women's dance, salsa, swing or hip hop, or you're an ecstatic dance DJ. Learn <strong>leadership, facilitation and ethics as a dance teacher</strong>, plus the business of dance and all our marketing materials, without the contact improvisation material. Online and self-paced.</p>
+        <p class="amt" style="font-size:2.6rem">$269<small>USD</small></p>
+        <div class="btns"><a class="btn solid" href="https://buy.stripe.com/14A4gA02T7gAcXb6rrdEs2G" target="_blank" rel="noopener">Enroll now</a><a class="btn" href="https://wa.me/6287790654204?text=Hi%20Aalia%2C%20I%20have%20a%20question%20about%20Teaching%20Dance%20Essentials" target="_blank" rel="noopener">Inquire with Aalia</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="free">
+  <div class="wrap">
+    <div class="head">
+      <h2>Free trainings</h2>
+      <p class="lede muted">If you'd like to get to know Aalia and how she teaches.</p>
+    </div>
+    <div class="two">
+      <div class="opt">
+        <div class="photo"><img src="img/talk.jpg" alt="A dancer sharing with the group, hands at heart" loading="lazy"></div>
+        <div class="body">
+          <p class="cap hi">Free training · 35 minutes · YouTube</p>
+          <h3>The 5 mistakes dance teachers make</h3>
+          <p class="muted">What Momentum teaches, <strong>who it's for and who it isn't for</strong>, and the mistakes it helps you avoid.</p>
+          <div class="btns"><a class="btn solid" href="https://youtu.be/8p7eMCmPoHo" target="_blank" rel="noopener">Watch the training</a></div>
+        </div>
+      </div>
+      <div class="opt">
+        <div class="photo"><img src="img/q-floor.jpg" alt="Aalia lying on a warm wooden studio floor during floorwork" style="object-position:50% 50%" loading="lazy"></div>
+        <div class="body">
+          <p class="cap hi">Free class · 25 minutes · YouTube</p>
+          <h3>Floorwork with Aalia</h3>
+          <p class="muted">Move with Aalia and feel how she <strong>breaks down a skill</strong> for her students.</p>
+          <div class="btns"><a class="btn solid" href="https://youtu.be/G1VjLGNWNA0" target="_blank" rel="noopener">Watch the class</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="mist" id="venue">
+  <div class="wrap">
+    <div class="head">
+      <p class="cap hi">Level 2 venue</p>
+      <h2>Rasa Yoga, Ubud</h2>
+      <p class="lede muted">Our private studio for the week, in central Ubud. Modern rooms are available on site for around 500,000 IDR a night if you'd like to stay where you train.</p>
+    </div>
+    <div class="venue">
+      <div class="photo wide"><img src="img/rasa-class.jpg" alt="A group seated in meditation on mats in the Rasa Yoga studio" loading="lazy"></div>
+      <div class="photo"><img src="img/rasa-room.jpg" alt="A modern guest room at Rasa Yoga with a rattan headboard and garden view" loading="lazy"></div>
+      <div class="photo"><img src="img/rasa-room2.jpg" alt="Another angle of a Rasa Yoga guest room with a sliding rattan wardrobe" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+<section id="faq">
+  <div class="wrap">
+    <div class="head">
+      <p class="cap hi">Before you apply</p>
+      <h2>FAQs</h2>
+    </div>
+    <div class="faq">
+      <details><summary>Who can join Level 1?</summary><p>Anyone who intends to teach contact or host jams. There's no experience requirement for Level 1. If you teach another dance style, Teaching Dance Essentials may be a better fit.</p></details>
+      <details><summary>Why do I need a year of experience for Level 2?</summary><p>Level 2 is by application, and we accept dancers who already have a contact practice of at least one year, about 40 hours, so they're invested in the form. In <em>Dancing Deeper Still</em>, Martin Keogh suggests around a year of dancing before teaching, and Aalia studied for nearly two years before she started.</p><p>Training to teach something you haven't embodied yet is like going to a yoga teacher training as a brand-new yogi. We want facilitators who carry what they share in their own bodies. Accepted dancers receive an acceptance email after the intake form.</p></details>
+      <details><summary>Can I skip Level 1 if I already teach?</summary><p>No. Even experienced contact teachers find new tools in Level 1, and it means everyone arrives in Bali with the same foundation in hosting, leadership and the business of dance.</p></details>
+      <details><summary>Do you offer discounts or scholarships?</summary><p>No. The early bird price for Level 2 is the only discount, and we don't offer scholarships, work-trade or exchange places.</p></details>
+      <details><summary>Where is Level 2?</summary><p>At our private studio at Rasa Yoga in central Ubud, Bali. Modern rooms are available on site for around 500,000 IDR a night, and booking them is optional. Rasa has a small café with coffee and matcha and an open kitchen for guests, but meals aren't provided.</p><p>The week is full, so there isn't much time for sightseeing. Aalia lived in Bali for four years and taught in Ubud and Uluwatu from 2020 to 2024, and she's happy to share local tips once you're accepted.</p></details>
+      <details><summary>Are accommodation and food included?</summary><p>No. Level 2 covers the training only, so you can stay on site or anywhere else in Ubud that suits you, from rice-field villas to simple homestays.</p></details>
+      <details><summary>What does a week in Level 2 look like?</summary><p>Momentum technique classes, facilitation labs and teaching practice, ending with a celebration together, like a sauna and dinner night out. You'll get the full schedule a week before.</p></details>
+      <details><summary>What if I miss a live call?</summary><p>Every call is recorded, so you can catch up in your own time.</p></details>
+      <details><summary>Can I teach the Momentum Method afterwards?</summary><p>Yes. Use any of the practices freely in your own classes. If you build workshops on this material, please credit it as the Momentum Contact Method and share that you trained with Aalia.</p></details>
+      <details><summary>What is the refund policy?</summary><p>All sales are final and non-refundable, so please book mindfully. If we cancel a training, you'll receive a full refund.</p></details>
+    </div>
+  </div>
+</section>
+<section class="photocta callcta">
+  <div class="photo"><img src="img/thatched-group.jpg" alt="A Momentum workshop group gathered under a thatched roof" loading="lazy"></div>
+  <div class="wrap"><div class="box">
+      <div>
+        <p class="cap hi">Still on the fence?</p>
+        <h3>Apply for a free 20-minute discovery call</h3>
+        <p class="muted">If you still have questions and you're serious about joining, message Aalia on WhatsApp with your time zone and three times that work for you in the next week. She'll confirm one.</p>
+      </div>
+      <div class="btns"><a class="btn light" href="https://wa.me/6287790654204?text=Hi%20Aalia%2C%20I%27m%20serious%20about%20joining%20the%20Level%202%20facilitator%20training%20and%20would%20love%20a%20free%2020-minute%20discovery%20call.%20My%20time%20zone%20is%20___.%20Three%20times%20that%20work%20for%20me%20in%20the%20next%20week%3A%201)%20___%202)%20___%203)%20___" target="_blank" rel="noopener">Apply for a discovery call</a></div>
+    </div></div>
+</section>
+<section class="cream" id="resources">
+  <div class="wrap">
+    <h2>More contact online with Aalia</h2>
+    <div class="two">
+      <div class="opt">
+        <div class="photo"><img src="img/leilani.jpg" alt="Leilani Weis laughing in a bright white room" style="object-position:50% 30%" loading="lazy"></div>
+        <div class="body">
+          <p class="cap hi">Podcast · Spotify</p>
+          <h3>Faces of CI</h3>
+          <p class="muted">Aalia has hosted the podcast since 2019, talking with contact facilitators in Canada and Asia about the practice. Guests include <strong>Kirstie Simson, Leilani Weis and Andrew Harwood.</strong></p>
+          <div class="btns"><a class="btn solid" href="https://open.spotify.com/show/3OeuluBhg2ISpcxSTWGEv5" target="_blank" rel="noopener">Listen on Spotify</a></div>
+        </div>
+      </div>
+      <div class="opt">
+        <div class="photo"><img src="img/aalia-lift.jpg" alt="Aalia carrying a dancer on her back in a bright studio" style="object-position:50% 45%" loading="lazy"></div>
+        <div class="body">
+          <p class="cap hi">Online courses</p>
+          <h3>Contact Body</h3>
+          <p class="muted">Our two mini courses based on the Momentum online school: <strong>Solo Body, Move What's in You</strong> and <strong>Two Bodies, Contact Partnerwork Principles.</strong></p>
+          <div class="btns"><a class="btn solid" href="https://contactbody.ca" target="_blank" rel="noopener">Explore the courses</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="dark" id="newsletter">
+  <div class="wrap mail">
+    <h2>Newsletter</h2>
+    <div class="stack">
+      <p class="lede">Join the Momentum newsletter to hear about facilitator trainings, online courses, workshops, contact musings and dance videos.</p>
+      <form class="nform" method="POST" action="https://923e1f1b.sibforms.com/serve/MUIFANHdysEUjna7TV29FACPq7Jo_ZceE3E9iZuORJmfrlhO59KH-1-aEy-zv7cZh_zR3Myj1ZS0K9383wpcyqXZS4FsvUxAB6sl0sw3NJ-k8ZzN7GW1UImvx2fC2dIx6vXluKch29Tx4TCjjUOz5aqWUO05Omptk_QXIXnr1CRhnSp7JhYGFr9Gxe0t3USQXwXbbIp9lueT-4AX" target="_blank">
+        <label for="nf-email" class="cap">Your email</label>
+        <div class="nrow"><input id="nf-email" type="email" name="EMAIL" required placeholder="you@example.com" autocomplete="email"><button class="btn light" type="submit">Join the newsletter</button></div>
+        <input type="text" name="email_address_check" value="" style="display:none" tabindex="-1" autocomplete="off"><input type="hidden" name="locale" value="en">
+      </form>
+    </div>
+  </div>
+</section>
+<footer><div class="wrap">
+  <span>Copyright © 2026 Momentum Contact, Faces of CI and Contact Body.</span>
+  <span><a href="https://www.instagram.com/momentumcontact" target="_blank" rel="noopener">Instagram @momentumcontact</a> · <a href="https://www.momentum-contact.com" target="_blank" rel="noopener">www.momentum-contact.com</a></span>
+</div></footer>
+
+</body>
+</html>
