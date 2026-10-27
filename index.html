@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Momentum Contact Facilitator Training with Aalia Hashem: online Momentum Foundations and the in-person Momentum Facilitator Training in Ubud, Bali.">
 <meta property="og:title" content="Momentum Contact Facilitator Training">
-<meta property="og:description" content="Learn to teach contact improvisation, host jams and build your own dance community. Online + Ubud, Bali.">
+<meta property="og:description" content="Learn to teach contact improvisation, host jams and share it with confidence. Online + Ubud, Bali.">
 <meta property="og:image" content="https://training.momentum-contact.com/img/hero.jpg">
 <meta property="og:type" content="website">
 <title>Momentum Facilitator Training</title>
@@ -390,14 +390,30 @@ footer a:hover{color:var(--ink)}
 .callcta h3{font-size:clamp(1.8rem,4vw,2.6rem)}
 .nform{display:flex;flex-direction:column;gap:8px}.nrow{display:flex;flex-wrap:wrap;gap:10px}.nrow input{flex:1 1 220px;min-width:0;padding:15px 16px;border:1px solid rgba(247,246,243,.35);background:transparent;color:var(--white);font:inherit}.nrow input::placeholder{color:#a9a8a3}.nrow button{cursor:pointer;font:inherit;font-size:.74rem}
 :root{padding:0}
+/* v18 */
+.hero .kick{text-align:center;color:var(--sand);margin-bottom:22px}
+.hero h1.long{font-size:clamp(2.1rem,5.4vw,4.3rem);letter-spacing:.08em;line-height:1.08;max-width:20ch;text-shadow:0 2px 18px rgba(0,0,0,.35)}
+.hero .intro{text-align:center;max-width:620px;margin:22px auto 0;font-size:1.12rem;color:#f0ede7}
+.levels2{display:grid;grid-template-columns:1fr 1fr;margin-top:44px;border-top:1px solid var(--rule-l)}
+.levels2>div{padding:28px 32px 0 0;min-width:0;display:flex;flex-direction:column;gap:10px}
+.levels2>div+div{padding:28px 0 0 32px;border-left:1px solid var(--rule-l)}
+.levels2 h3{font-size:1.75rem}
+@media (max-width:780px){.levels2{grid-template-columns:1fr}.levels2>div,.levels2>div+div{padding:24px 0 0;border-left:0}.levels2>div+div{margin-top:24px;border-top:1px solid var(--rule-l)}}
+.story{display:grid;grid-template-columns:7fr 5fr;gap:clamp(36px,6vw,80px);align-items:start}
+.story>*{min-width:0}
+.story .photo{aspect-ratio:4/5;position:sticky;top:24px}
+.story .stack p:not(.cap):not(.words){max-width:62ch}
+@media (max-width:880px){.story{grid-template-columns:1fr}.story .photo{position:relative;aspect-ratio:3/2}}
 </style>
 </head>
 <body>
 <header class="hero">
   <div class="photo"><img src="img/hero.jpg" alt="A joyful group of Momentum dancers in a dark wooden studio in Bali, arms raised"></div>
   <div class="wrap">
-    <h1 class="rise">Momentum Contact<span>Facilitator Training</span></h1>
-    <p class="sub cap rise d2">50-hour certification · Online + Ubud, Bali</p>
+    <p class="cap kick rise">Momentum Contact Facilitator Training</p>
+    <h1 class="rise long">Learn to Teach and Share Contact Improvisation</h1>
+    <p class="intro rise d2">For contact dancers and movement teachers who want to develop their teaching skills, deepen their knowledge, and share Contact Improvisation with confidence.</p>
+    <p class="sub cap rise d2" style="margin-top:22px">50-hour training · Online + Ubud, Bali</p>
   </div>
 </header>
 <section class="dark" id="pain">
@@ -405,14 +421,27 @@ footer a:hover{color:var(--ink)}
     <div class="photo"><img src="img/group-steps.jpg" alt="A Momentum training group smiling together on garden steps" style="object-position:50% 45%"></div>
     <div class="stack">
       <p class="cap hi">Sound familiar?</p>
-      <h2>You love contact. Now you want more of it where you live.</h2>
+      <h2>You love contact. Now you want to share it.</h2>
       <ul class="plist">
-        <li>There's no contact community where you live, and you want to build one from scratch.</li>
+        <li>You notice what goes wrong in classes and jams, and you want to do it differently.</li>
         <li>You've started teaching, and organizing everything takes far more than you expected.</li>
         <li>You're not sure how to give your students feedback.</li>
         <li>You don't know where to run a class, or how to get people to come.</li>
       </ul>
       <p class="lede muted">Momentum gives you the structure, the skills and the confidence to start.</p>
+    </div>
+  </div>
+</section>
+<section id="overview">
+  <div class="wrap">
+    <div class="head">
+      <p class="cap hi">A 50-hour training in two parts</p>
+      <h2>Online, then in person</h2>
+      <p class="lede muted">This is an educational training in how to teach contact: how people learn, how to hold a room, and how to share the form with care.</p>
+    </div>
+    <div class="levels2">
+      <div><p class="cap hi">Level 1 · Online</p><h3>Momentum Foundations</h3><p class="muted">The art of facilitation, leadership, movement education, business and marketing, and the essential skills of organizing and teaching contact improvisation.</p></div>
+      <div><p class="cap hi">Level 2 · Immersive training in Bali</p><h3>Momentum Facilitator Training</h3><p class="muted">Physical contact skills, the Momentum teaching method, practice leading others, and how to structure your own classes and workshops.</p></div>
     </div>
   </div>
 </section>
@@ -424,6 +453,19 @@ footer a:hover{color:var(--ink)}
       <p class="lede muted">Inside a Momentum workshop in Uluwatu, Bali: the skills, the play, and the people you'll learn to hold.</p>
     </div>
     <div class="vidwrap"><video src="img/promo.mp4" poster="img/promo-poster.jpg" autoplay muted loop playsinline controls preload="metadata" aria-label="Momentum workshop promo video"></video></div>
+  </div>
+</section>
+<section id="story">
+  <div class="wrap story">
+    <div class="stack">
+      <p class="cap hi">Why I built Momentum</p>
+      <h2>I nerd out on how contact is taught</h2>
+      <p class="lede">Contact lit me up the first time I danced it, and it still does. Finding my way through contact communities hasn't always been easy, and over the years I've learned a lot about what makes a class or a jam feel good, and what doesn't.</p>
+      <p class="muted">After 45+ workshops, I'm about twenty steps ahead of most new teachers, simply because I've already made the mistakes. I notice what goes wrong in a room. A jam opens with no announcements, no agreements, no one holding the space, and it slowly becomes unclear what the space is for. Afterwards, women come and talk to me about how uncomfortable it felt.</p>
+      <p class="muted">Or a first-time teacher, full of love for the dance, has the class lying on a dusty floor for thirty minutes in a hot room with the fans off. Little by little, people walk out. Nobody told them about the floor, the fans, or the timing.</p>
+      <p class="words">These aren't failures of passion. They're things nobody teaches you. Momentum is an education in how to teach: pedagogy, structure, care. If you nerd out on contact too, you'll feel at home here.</p>
+    </div>
+    <div class="photo framed"><img src="img/talk.jpg" alt="A dancer sharing with the group, hands at heart" style="object-position:50% 40%" loading="lazy"></div>
   </div>
 </section>
 <section class="char" id="why">
@@ -481,8 +523,9 @@ footer a:hover{color:var(--ink)}
     </div>
     <div class="fit">
       <ul>
-        <li>A contact dancer who feels ready to start teaching or hosting jams</li>
-        <li>Wanting to grow a contact community where you live, even where none exists yet</li>
+        <li>A contact dancer with some experience who feels ready to start teaching or hosting jams</li>
+        <li>Wanting to bring contact home to your community, or share it more widely</li>
+        <li>Curious about how people learn, not only how to dance</li>
         <li>A bodyworker, coach or therapist bringing movement into your work</li>
         <li>Someone who wants structure, mentorship and real skills</li>
         <li>Curious, willing to practice and ready to lead</li>
@@ -491,6 +534,8 @@ footer a:hover{color:var(--ink)}
         <p class="cap muted" style="margin-bottom:6px">Not for you yet, if you're</p>
         <ul>
           <li>Only interested in performing, choreography or learning contact for yourself. A festival or workshop is the better fit.</li>
+          <li>Brand new to contact. Take some classes, jams or a festival first, then come back.</li>
+          <li>Teaching another dance form and not interested in contact. Teaching Dance Essentials is built for you.</li>
           <li>Not ready to take responsibility for a group</li>
           <li>Not ready to put in the practice, the reflection and the time</li>
         </ul>
@@ -679,7 +724,7 @@ footer a:hover{color:var(--ink)}
 <section class="photocta">
   <div class="photo"><img src="img/laughs.jpg" alt="Dancers laughing together in a dark studio" style="object-position:50% 40%" loading="lazy"></div>
   <div class="wrap"><div class="box">
-    <p class="title">Your community is waiting for you</p>
+    <p class="title">Ready to share the dance you love?</p>
     <a class="btn light" href="#investment">Take me to the training details and apply</a>
   </div></div>
 </section>
@@ -711,7 +756,7 @@ footer a:hover{color:var(--ink)}
       <div class="inset">
         <div class="photo framed"><img src="img/aalia-dance.jpg" alt="Aalia dancing in white in a bamboo studio" loading="lazy"></div>
         <div class="stack" style="gap:16px">
-          <p class="muted">I host the Faces of CI podcast, founded the Contact Body online school, and direct dance films shown at Canada's Contact Dance Film Festival. I've been invited to teach at <strong>Bali Dance Festival, Georgia Silent Contact Festival, Towards CI50 Conference, Bali Bloom</strong> and Arcana Koh Phangan.</p>
+          <p class="muted">I host the Faces of CI podcast, founded the Contact Body online school, and direct dance films shown at Canada's Contact Dance Film Festival. I've been invited to teach at <strong>Bali Dance Festival, Georgia Silent Contact Festival, Towards CI50 Conference</strong> and <strong>Bali Bloom</strong>.</p>
           <p class="muted">I've trained in facilitation and leadership with <strong>Rick Smith</strong>, an American teacher who has trained teachers across the United States and many of Bali's facilitators. Teaching runs in my family: my mom was a school and university teacher, and my dad taught driving, flying and hang gliding. In Human Design, my purpose is the Left Angle Cross of Education, <strong>a life devoted to teaching</strong>.</p>
         </div>
       </div>
@@ -732,7 +777,7 @@ footer a:hover{color:var(--ink)}
         <p class="cap hi">Level 1 · Self-paced · Online</p>
         <h3>Momentum Foundations</h3>
         <p class="amt">$500<small>USD</small></p>
-        <p class="muted"><strong>No application needed.</strong> Pay and start today.</p>
+        <p class="muted"><strong>For dancers with some contact experience.</strong> No application needed. Pay and start today.</p>
         <ul><li>About 15 hours, at your own pace</li><li>Facilitation, history, ethics, first aid and business</li><li>Pre-recorded coaching calls</li><li>1:1 coaching call</li></ul>
         <a class="btn" href="https://buy.stripe.com/aFa14o16X44obT7cPPdEs2C" target="_blank" rel="noopener">Start now</a>
       </div>
@@ -740,7 +785,7 @@ footer a:hover{color:var(--ink)}
         <p class="cap hi">Level 1 · Group cohort · Online</p>
         <h3>Momentum Foundations, 4-Week Group</h3>
         <p class="amt">$800<small>USD</small></p>
-        <p><strong>Begins November 3, 2026</strong> · small group · no application needed</p>
+        <p><strong>Begins November 3, 2026</strong> · small group · some contact experience needed</p>
         <ul><li>Everything in self-paced</li><li>4 weeks of live coaching with Aalia</li><li>Weekly accountability</li></ul>
         <a class="btn" href="https://buy.stripe.com/9B64gAcPF30k9KZaHHdEs2D" target="_blank" rel="noopener">Join the cohort</a>
       </div>
@@ -758,8 +803,8 @@ footer a:hover{color:var(--ink)}
     </div>
     <div class="pnote">
       <p class="title md" style="font-size:1.6rem">Please note for Level 2</p>
-      <p class="muted">You need Level 1 and <strong>at least one year of contact practice</strong> to join Level 2. In <em>Dancing Deeper Still</em>, Martin Keogh, one of Aalia's contact teachers, suggests a year of dancing before teaching, and Aalia studied for nearly two years before she began. Level 1 has no requirement, so you can start now, build your practice alongside it, and join Level 2 later.</p>
-      <p><strong>Curious about contact improvisation but not ready to teach yet? Level 1 is the starting point.</strong></p>
+      <p class="muted">You need Level 1 and <strong>at least one year of contact practice</strong> to join Level 2. In <em>Dancing Deeper Still</em>, Martin Keogh, one of Aalia's contact teachers, suggests a year of dancing before teaching, and Aalia studied for nearly two years before she began. Level 1 asks for some contact experience, not a full year, so you can start now, build your practice alongside it, and join Level 2 later.</p>
+      <p><strong>Brand new to contact? Start with classes, jams or the Contact Body online courses first. Teach another dance form? Teaching Dance Essentials, below, is built for you.</strong></p>
     </div>
     <div class="ess">
       <div class="photo"><img src="img/floor.jpg" alt="A dancer in a floral top moving across a wooden floor" style="object-position:50% 35%" loading="lazy"></div>
@@ -824,7 +869,7 @@ footer a:hover{color:var(--ink)}
     <div class="faq">
       <details><summary>Is Contact Improvisation something to be certified in, or does that go against its ethos?</summary><p>The Momentum Contact Facilitator Certification qualifies graduates to teach the Momentum Contact method, built over 40+ workshops and 7 years of sharing this framework. It is not a universal teaching certification in Contact Improvisation.</p></details>
 <details><summary>Is Level 1 a certification?</summary><p>No. Momentum Foundations is educational: it gives you a strong base, and the information to host jams. The Momentum certification comes with Level 2, the in-person Momentum Facilitator Training.</p></details>
-      <details><summary>Who can join Level 1?</summary><p>Dancers, movers and somatic practitioners who want a deeper understanding of contact improvisation before teaching, assisting or hosting jams. Open to those newer to contact too. If you teach another dance style, Teaching Dance Essentials may be a better fit.</p></details>
+      <details><summary>Who can join Level 1?</summary><p>Dancers and movement teachers with some contact experience who want to understand how to teach it, assist, or host jams. You don't need a full year for Level 1, but you should have danced contact before.</p><p>If you've never danced contact, start with some classes, jams or the Contact Body online courses first. If you teach another dance form, Teaching Dance Essentials is the better fit.</p></details>
       <details><summary>Why do I need a year of experience for Level 2?</summary><p>Level 2 is by application, and we accept dancers who already have a contact practice of at least one year, about 40 hours, so they're invested in the form. In <em>Dancing Deeper Still</em>, Martin Keogh suggests around a year of dancing before teaching, and Aalia studied for nearly two years before she started.</p><p>Training to teach something you haven't embodied yet is like going to a yoga teacher training as a brand-new yogi. We want facilitators who carry what they share in their own bodies. Accepted dancers receive an acceptance email after the intake form.</p></details>
       <details><summary>Can I skip Level 1 if I already teach?</summary><p>No. Even experienced contact teachers find new tools in Level 1, and it means everyone arrives in Bali with the same foundation in hosting, leadership and the business of dance.</p></details>
       <details><summary>Do you offer discounts or scholarships?</summary><p>No. The early bird price for Level 2 is the only discount, and we don't offer scholarships, work-trade or exchange places.</p></details>
