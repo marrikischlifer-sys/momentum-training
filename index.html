@@ -391,6 +391,10 @@ footer a:hover{color:var(--ink)}
 .nform{display:flex;flex-direction:column;gap:8px}.nrow{display:flex;flex-wrap:wrap;gap:10px}.nrow input{flex:1 1 220px;min-width:0;padding:15px 16px;border:1px solid rgba(247,246,243,.35);background:transparent;color:var(--white);font:inherit}.nrow input::placeholder{color:#a9a8a3}.nrow button{cursor:pointer;font:inherit;font-size:.74rem}
 :root{padding:0}
 /* v18 */
+.storytext{max-width:760px}
+#why .photo img{object-position:22% 50%}
+@media (max-width:880px){#why .photo{aspect-ratio:5/4}#why .photo img{object-position:0% 50%}}
+.levels2 .date{font-weight:500}
 .hero .kick{text-align:center;color:var(--sand);margin-bottom:22px}
 .hero h1.long{font-size:clamp(2.1rem,5.4vw,4.3rem);letter-spacing:.08em;line-height:1.08;max-width:20ch;text-shadow:0 2px 18px rgba(0,0,0,.35)}
 .hero .intro{text-align:center;max-width:620px;margin:22px auto 0;font-size:1.12rem;color:#f0ede7}
@@ -410,12 +414,23 @@ footer a:hover{color:var(--ink)}
 <header class="hero">
   <div class="photo"><img src="img/hero.jpg" alt="A joyful group of Momentum dancers in a dark wooden studio in Bali, arms raised"></div>
   <div class="wrap">
-    <p class="cap kick rise">Momentum Contact Facilitator Training</p>
-    <h1 class="rise long">Learn to Teach and Share Contact Improvisation</h1>
-    <p class="intro rise d2">For contact dancers and movement teachers who want to develop their teaching skills, deepen their knowledge, and share Contact Improvisation with confidence.</p>
-    <p class="sub cap rise d2" style="margin-top:22px">50-hour training · Online + Ubud, Bali</p>
+    <h1 class="rise">Momentum Contact<span>Facilitator Training</span></h1>
+    <p class="sub cap rise d2">50-hour certification · Online + Ubud, Bali</p>
   </div>
 </header>
+<section id="overview">
+  <div class="wrap">
+    <div class="head">
+      <p class="cap hi">A 50-hour training · Online, then in person</p>
+      <h2>Learn to Teach and Share Contact Improvisation</h2>
+      <p class="lede muted">For contact dancers and movement teachers who want to develop their teaching skills, deepen their knowledge, and share Contact Improvisation with confidence.</p>
+    </div>
+    <div class="levels2">
+      <div><p class="cap hi">Level 1 · Online</p><h3>Momentum Foundations</h3><p class="date">Self-paced, start anytime, or join the group from November 3, 2026</p><p class="muted">The art of facilitation, leadership, movement education, business and marketing, and the essential skills of organizing and teaching contact improvisation.</p></div>
+      <div><p class="cap hi">Level 2 · Immersive training in Bali</p><h3>Momentum Facilitator Training</h3><p class="date">February 15–22, 2027 · Ubud, Bali</p><p class="muted">Physical contact skills, the Momentum teaching method, practice leading others, and how to structure your own classes and workshops.</p></div>
+    </div>
+  </div>
+</section>
 <section class="dark" id="pain">
   <div class="wrap pain">
     <div class="photo"><img src="img/group-steps.jpg" alt="A Momentum training group smiling together on garden steps" style="object-position:50% 45%"></div>
@@ -426,24 +441,17 @@ footer a:hover{color:var(--ink)}
         <li>You notice what goes wrong in classes and jams, and you want to do it differently.</li>
         <li>You've started teaching, and organizing everything takes far more than you expected.</li>
         <li>You're not sure how to give your students feedback.</li>
-        <li>You don't know where to run a class, or how to get people to come.</li>
       </ul>
       <p class="lede muted">Momentum gives you the structure, the skills and the confidence to start.</p>
     </div>
   </div>
 </section>
-<section id="overview">
-  <div class="wrap">
-    <div class="head">
-      <p class="cap hi">A 50-hour training in two parts</p>
-      <h2>Online, then in person</h2>
-      <p class="lede muted">This is an educational training in how to teach contact: how people learn, how to hold a room, and how to share the form with care.</p>
-    </div>
-    <div class="levels2">
-      <div><p class="cap hi">Level 1 · Online</p><h3>Momentum Foundations</h3><p class="muted">The art of facilitation, leadership, movement education, business and marketing, and the essential skills of organizing and teaching contact improvisation.</p></div>
-      <div><p class="cap hi">Level 2 · Immersive training in Bali</p><h3>Momentum Facilitator Training</h3><p class="muted">Physical contact skills, the Momentum teaching method, practice leading others, and how to structure your own classes and workshops.</p></div>
-    </div>
-  </div>
+<section class="photocta" id="cta-home">
+  <div class="photo"><img src="img/garden.jpg" alt="Two dancers in a supported lean under a thatched roof" style="object-position:50% 35%" loading="lazy"></div>
+  <div class="wrap"><div class="box">
+    <p class="title">Bring contact home to your community</p>
+    <a class="btn light" href="https://docs.google.com/forms/d/e/1FAIpQLSdHq3Fl92nQp1zRQKaxmQrD35jCFZRUh0Uhyim95g6pAS-EZQ/viewform" target="_blank" rel="noopener">I'm ready to apply</a>
+  </div></div>
 </section>
 <section class="mist" id="video">
   <div class="wrap vidsec">
@@ -456,16 +464,15 @@ footer a:hover{color:var(--ink)}
   </div>
 </section>
 <section id="story">
-  <div class="wrap story">
-    <div class="stack">
+  <div class="wrap">
+    <div class="stack storytext">
       <p class="cap hi">Why I built Momentum</p>
       <h2>I nerd out on how contact is taught</h2>
       <p class="lede">Contact lit me up the first time I danced it, and it still does. Finding my way through contact communities hasn't always been easy, and over the years I've learned a lot about what makes a class or a jam feel good, and what doesn't.</p>
-      <p class="muted">After 45+ workshops, I'm about twenty steps ahead of most new teachers, simply because I've already made the mistakes. I notice what goes wrong in a room. A jam opens with no announcements, no agreements, no one holding the space, and it slowly becomes unclear what the space is for. Afterwards, women come and talk to me about how uncomfortable it felt.</p>
-      <p class="muted">Or a first-time teacher, full of love for the dance, has the class lying on a dusty floor for thirty minutes in a hot room with the fans off. Little by little, people walk out. Nobody told them about the floor, the fans, or the timing.</p>
-      <p class="words">These aren't failures of passion. They're things nobody teaches you. Momentum is an education in how to teach: pedagogy, structure, care. If you nerd out on contact too, you'll feel at home here.</p>
+      <p class="muted">After leading <strong>50+ contact improvisation workshops</strong>, I'm about twenty steps ahead of most new teachers, simply because I've already made the mistakes. When I walk into other contact classes, even with experienced teachers, I notice the same things again and again. Music from next door competing with the class. A floor nobody swept, and no fan on in a hot room. A teacher who can't get the group's attention. A playlist that isn't getting anyone moving.</p>
+      <p class="muted">So I nerd out on teaching. Over the years I've built a whole online library on how to teach contact, and <strong>Level 1 alone holds 7 hours of video teaching.</strong></p>
+      <p class="words">These aren't failures of passion. They're things nobody teaches you. If you nerd out on contact too, you'll feel at home here.</p>
     </div>
-    <div class="photo framed"><img src="img/talk.jpg" alt="A dancer sharing with the group, hands at heart" style="object-position:50% 40%" loading="lazy"></div>
   </div>
 </section>
 <section class="char" id="why">
@@ -483,18 +490,6 @@ footer a:hover{color:var(--ink)}
       </ol>
     </div>
   </div>
-</section>
-<section class="photocta" id="cta-home">
-  <div class="photo"><img src="img/garden.jpg" alt="Two dancers in a supported lean under a thatched roof" style="object-position:50% 35%" loading="lazy"></div>
-  <div class="wrap"><div class="box">
-    <p class="title">Bring contact home to your community</p>
-    <a class="btn light" href="https://docs.google.com/forms/d/e/1FAIpQLSdHq3Fl92nQp1zRQKaxmQrD35jCFZRUh0Uhyim95g6pAS-EZQ/viewform" target="_blank" rel="noopener">I'm ready to apply</a>
-  </div></div>
-</section>
-<section class="gallery4 g3" aria-label="Moments from Momentum trainings">
-  <div class="photo"><img src="img/duo.jpg" alt="Two dancers sitting back to back on a dark wooden floor, laughing" loading="lazy"></div>
-  <div class="photo"><img src="img/adjust-shoulder.jpg" alt="Aalia adjusting a student's shoulders in a bamboo studio" loading="lazy"></div>
-  <div class="photo"><img src="img/hug.jpg" alt="Aalia hugging a graduate outside the studio" loading="lazy"></div>
 </section>
 <section id="students">
   <div class="wrap">
@@ -514,7 +509,11 @@ footer a:hover{color:var(--ink)}
     </div>
   </div>
 </section>
-<div class="single"><div class="photo"><img src="img/circle.jpg" alt="Dancers sitting in a circle on a dark wooden floor, clapping together" loading="lazy"></div></div>
+<section class="gallery4 g3" aria-label="Moments from Momentum trainings">
+  <div class="photo"><img src="img/duo.jpg" alt="Two dancers sitting back to back on a dark wooden floor, laughing" loading="lazy"></div>
+  <div class="photo"><img src="img/adjust-shoulder.jpg" alt="Aalia adjusting a student's shoulders in a bamboo studio" loading="lazy"></div>
+  <div class="photo"><img src="img/hug.jpg" alt="Aalia hugging a graduate outside the studio" loading="lazy"></div>
+</section>
 <section class="mist" id="fit">
   <div class="wrap">
     <div class="head">
@@ -570,7 +569,7 @@ footer a:hover{color:var(--ink)}
     </ol>
   </div>
 </section>
-<div class="single"><div class="photo"><img src="img/lift.jpg" alt="Two dancers in a counterbalance lift under a bamboo roof" style="object-position:50% 40%" loading="lazy"></div></div>
+<div class="single"><div class="photo"><img src="img/circle.jpg" alt="Dancers sitting in a circle on a dark wooden floor, clapping together" loading="lazy"></div></div>
 <section class="dark" id="method">
   <div class="wrap method">
     <div class="stack">
