@@ -629,6 +629,10 @@ footer a:hover{color:var(--ink)}
 .gradphoto img{width:100%;height:auto;display:block}
 /* v21 */
 .storytext .words{font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;font-size:1.6rem}
+/* v22 */
+.gallery4.g2{grid-template-columns:1fr 1fr}
+.gallery4.g2 .photo{aspect-ratio:4/5}
+.single.duo .photo{max-width:760px;margin:0 auto}
 </style>
 </head>
 <body>
@@ -668,13 +672,6 @@ footer a:hover{color:var(--ink)}
     </div>
   </div>
 </section>
-<section class="photocta" id="cta-home">
-  <div class="photo"><img src="img/garden.jpg" alt="Two dancers in a supported lean under a thatched roof" style="object-position:50% 35%" loading="lazy"></div>
-  <div class="wrap"><div class="box">
-    <p class="title">Bring contact home to your community</p>
-    <a class="btn light" href="https://docs.google.com/forms/d/e/1FAIpQLSdHq3Fl92nQp1zRQKaxmQrD35jCFZRUh0Uhyim95g6pAS-EZQ/viewform" target="_blank" rel="noopener">I'm ready to apply</a>
-  </div></div>
-</section>
 <section class="mist" id="video">
   <div class="wrap vidsec">
     <div class="stack">
@@ -684,6 +681,29 @@ footer a:hover{color:var(--ink)}
     </div>
     <div class="vidwrap"><video src="img/promo.mp4" poster="img/promo-poster.jpg" autoplay muted loop playsinline controls preload="metadata" aria-label="Momentum workshop promo video"></video></div>
   </div>
+</section>
+<section class="char" id="why">
+  <div class="wrap why">
+    <div class="photo framed"><img src="img/teach.jpg" alt="Aalia demonstrating to seated students on a wooden studio floor"></div>
+    <div class="stack">
+      <h2>Why join</h2>
+      <p class="lede muted">Most contact intensives make you a better dancer. Momentum trains you to be <strong>the person who runs the class, hosts the jam and fills the workshop.</strong></p>
+      <ol class="nums">
+        <li><span class="n">01/</span><div><h4>A method that's been tested</h4><p class="muted">Built from <strong>more than 45 editions</strong> of the Momentum Contact Fundamentals workshop in Bali, Thailand and Canada since 2020.</p></div></li>
+        <li><span class="n">02/</span><div><h4>You teach real students</h4><p class="muted">In Level 2 you <strong>teach inside a live Momentum workshop</strong> and get feedback from Aalia on your teaching style.</p></div></li>
+        <li><span class="n">03/</span><div><h4>Leadership, facilitation and ethics</h4><p class="muted">How to hold a room, set a container and lead with integrity. <strong>The side most dancers are never taught.</strong></p></div></li>
+        <li><span class="n">04/</span><div><h4>The business of dance</h4><p class="muted">Marketing, social media, sourcing venues and building sign-up forms, so <strong>people actually come to your class.</strong></p></div></li>
+        <li><span class="n">05/</span><div><h4>Make it your own</h4><p class="muted">Momentum is one perspective on contact, not a rulebook. Part of your coaching is <strong>shaping the material to suit your community</strong> and your vision.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="photocta" id="cta-home">
+  <div class="photo"><img src="img/garden.jpg" alt="Two dancers in a supported lean under a thatched roof" style="object-position:50% 35%" loading="lazy"></div>
+  <div class="wrap"><div class="box">
+    <p class="title">Bring contact home to your community</p>
+    <a class="btn light" href="https://docs.google.com/forms/d/e/1FAIpQLSdHq3Fl92nQp1zRQKaxmQrD35jCFZRUh0Uhyim95g6pAS-EZQ/viewform" target="_blank" rel="noopener">I'm ready to apply</a>
+  </div></div>
 </section>
 <section id="fit">
   <div class="wrap">
@@ -713,24 +733,7 @@ footer a:hover{color:var(--ink)}
     </div>
   </div>
 </section>
-<section class="char" id="why">
-  <div class="wrap why">
-    <div class="photo framed"><img src="img/teach.jpg" alt="Aalia demonstrating to seated students on a wooden studio floor"></div>
-    <div class="stack">
-      <h2>Why join</h2>
-      <p class="lede muted">Most contact intensives make you a better dancer. Momentum trains you to be <strong>the person who runs the class, hosts the jam and fills the workshop.</strong></p>
-      <ol class="nums">
-        <li><span class="n">01/</span><div><h4>A method that's been tested</h4><p class="muted">Built from <strong>more than 45 editions</strong> of the Momentum Contact Fundamentals workshop in Bali, Thailand and Canada since 2020.</p></div></li>
-        <li><span class="n">02/</span><div><h4>You teach real students</h4><p class="muted">In Level 2 you <strong>teach inside a live Momentum workshop</strong> and get feedback from Aalia on your teaching style.</p></div></li>
-        <li><span class="n">03/</span><div><h4>Leadership, facilitation and ethics</h4><p class="muted">How to hold a room, set a container and lead with integrity. <strong>The side most dancers are never taught.</strong></p></div></li>
-        <li><span class="n">04/</span><div><h4>The business of dance</h4><p class="muted">Marketing, social media, sourcing venues and building sign-up forms, so <strong>people actually come to your class.</strong></p></div></li>
-        <li><span class="n">05/</span><div><h4>Make it your own</h4><p class="muted">Momentum is one perspective on contact, not a rulebook. Part of your coaching is <strong>shaping the material to suit your community</strong> and your vision.</p></div></li>
-      </ol>
-    </div>
-  </div>
-</section>
-<section class="gallery4 g3" aria-label="Moments from Momentum trainings">
-  <div class="photo"><img src="img/duo.jpg" alt="Two dancers sitting back to back on a dark wooden floor, laughing" loading="lazy"></div>
+<section class="gallery4 g2" aria-label="Moments from Momentum trainings">
   <div class="photo"><img src="img/adjust-shoulder.jpg" alt="Aalia adjusting a student's shoulders in a bamboo studio" loading="lazy"></div>
   <div class="photo"><img src="img/hug.jpg" alt="Aalia hugging a graduate outside the studio" loading="lazy"></div>
 </section>
@@ -752,6 +755,7 @@ footer a:hover{color:var(--ink)}
     </div>
   </div>
 </section>
+<div class="single duo"><div class="photo"><img src="img/duo.jpg" alt="Two dancers sitting back to back on a dark wooden floor, laughing" loading="lazy"></div></div>
 <section id="story">
   <div class="wrap">
     <div class="stack storytext">
