@@ -51,7 +51,7 @@
   {
    "@type": "Course",
    "name": "Momentum Foundations: Online Contact Improvisation Facilitator Training (Level 1)",
-   "description": "Online course for dancers who want to learn to teach contact improvisation: hosting contact jams, leadership, facilitation and ethics, and the business of dance. Self-paced, or with a live 4-week group.",
+   "description": "Online course for dancers who want to learn to teach contact improvisation: hosting contact jams, leadership, facilitation and ethics, and the business of dance. Self-paced, with a 1:1 coaching call.",
    "provider": {
     "@id": "https://training.momentum-contact.com/#org"
    },
@@ -201,22 +201,6 @@
      "acceptedAnswer": {
       "@type": "Answer",
       "text": "Momentum technique classes, facilitation labs and teaching practice, ending with a celebration together, like a sauna and dinner night out. You'll get the full schedule a week before."
-     }
-    },
-    {
-     "@type": "Question",
-     "name": "What if I miss a live call?",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Every call is recorded, so you can catch up in your own time."
-     }
-    },
-    {
-     "@type": "Question",
-     "name": "Can I teach the Momentum Method afterwards?",
-     "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Yes. Use any of the practices freely in your own classes. If you build workshops on this material, please credit it as the Momentum Contact Method and share that you trained with Aalia."
      }
     },
     {
@@ -631,6 +615,11 @@ footer a:hover{color:var(--ink)}
 .story .photo{aspect-ratio:4/5;position:sticky;top:24px}
 .story .stack p:not(.cap):not(.words){max-width:62ch}
 @media (max-width:880px){.story{grid-template-columns:1fr}.story .photo{position:relative;aspect-ratio:3/2}}
+/* v19: two levels */
+.tiers{grid-template-columns:repeat(2,1fr)}
+.prices{grid-template-columns:repeat(2,1fr);max-width:880px}
+@media (max-width:960px){.prices{grid-template-columns:1fr}}
+@media (max-width:900px){.tiers{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -649,7 +638,7 @@ footer a:hover{color:var(--ink)}
       <p class="lede muted">For contact dancers and movement teachers who want to develop their teaching skills, deepen their knowledge, and share Contact Improvisation with confidence.</p>
     </div>
     <div class="levels2">
-      <div><p class="cap hi">Level 1 · Online</p><h3>Momentum Foundations</h3><p class="date">Self-paced, start anytime, or join the group from November 3, 2026</p><p class="muted">The art of facilitation, leadership, movement education, business and marketing, and the essential skills of organizing and teaching contact improvisation.</p></div>
+      <div><p class="cap hi">Level 1 · Online</p><h3>Momentum Foundations</h3><p class="date">Self-paced, start anytime, with a 1:1 coaching call</p><p class="muted">The art of facilitation, leadership, movement education, business and marketing, and the essential skills of organizing and teaching contact improvisation.</p></div>
       <div><p class="cap hi">Level 2 · Immersive training in Bali</p><h3>Momentum Facilitator Training</h3><p class="date">February 15–22, 2027 · Ubud, Bali</p><p class="muted">Physical contact skills, the Momentum teaching method, practice leading others, and how to structure your own classes and workshops.</p></div>
     </div>
   </div>
@@ -773,7 +762,7 @@ footer a:hover{color:var(--ink)}
   </div>
 </section>
 <div class="facts"><div class="wrap"><ul>
-  <li><span class="cap">Level 1 · Group cohort · Online</span><b>Begins Nov 3, 2026</b></li>
+  <li><span class="cap">Level 2 · Early bird</span><b>Until Nov 30</b></li>
   <li><span class="cap">Level 2 · In person · Ubud</span><b>Feb 15–22, 2027</b></li>
   <li><span class="cap">Level 1 · Self-paced · Online</span><b>Start anytime</b></li>
   <li><span class="cap">Graduates teaching in</span><b>6 countries</b></li>
@@ -785,7 +774,7 @@ footer a:hover{color:var(--ink)}
       <h2>The pathway</h2>
     </div>
     <ol class="path">
-      <li><span class="n">01/</span><b>Join Level 1</b><span class="muted">Online, self-paced or with the group cohort.</span></li>
+      <li><span class="n">01/</span><b>Join Level 1</b><span class="muted">Online and self-paced, with a 1:1 coaching call.</span></li>
       <li><span class="n">02/</span><b>Apply for Level 2</b><span class="muted">Intake form. Minimum one year of contact practice.</span></li>
       <li><span class="n">03/</span><b>Momentum Facilitator Training</b><span class="muted">The in-person certification. 35 hours with a new group in Ubud.</span></li>
       <li><span class="n">04/</span><b>Lead on your own</b><span class="muted">You'll leave ready to teach the Momentum Method your way, in classes, jams, workshops and retreats.</span></li>
@@ -880,17 +869,6 @@ footer a:hover{color:var(--ink)}
           <li>Business and marketing for dance teachers</li>
           <li>Pre-recorded coaching calls<span>From our 2025 cohort</span></li>
           <li>1:1 coaching call with Aalia</li>
-        </ul>
-      </div>
-      <div class="tier">
-        <p class="cap hi">Level 1 · Online · Group cohort</p>
-        <h3>Momentum Foundations, 4-Week Group</h3>
-        <p class="date">Begins November 3, 2026</p>
-        <p class="muted"><strong>For accountability and more coaching with Aalia.</strong> We go through the course together, week by week.</p>
-        <ul>
-          <li>Everything in the self-paced course</li>
-          <li>4 weeks of live group coaching calls with Aalia</li>
-          <li>Attend at least 3 of the 4 live calls<span>Calls are recorded. Level 2 requires completing all of Level 1</span></li>
         </ul>
       </div>
       <div class="tier">
@@ -1003,14 +981,6 @@ footer a:hover{color:var(--ink)}
         <ul><li>About 15 hours, at your own pace</li><li>Facilitation, history, ethics, first aid and business</li><li>Pre-recorded coaching calls</li><li>1:1 coaching call</li></ul>
         <a class="btn" href="https://buy.stripe.com/aFa14o16X44obT7cPPdEs2C" target="_blank" rel="noopener">Start now</a>
       </div>
-      <div class="price">
-        <p class="cap hi">Level 1 · Group cohort · Online</p>
-        <h3>Momentum Foundations, 4-Week Group</h3>
-        <p class="amt">$800<small>USD</small></p>
-        <p><strong>Begins November 3, 2026</strong> · small group · some contact experience needed</p>
-        <ul><li>Everything in self-paced</li><li>4 weeks of live coaching with Aalia</li><li>Weekly accountability</li></ul>
-        <a class="btn" href="https://buy.stripe.com/9B64gAcPF30k9KZaHHdEs2D" target="_blank" rel="noopener">Join the cohort</a>
-      </div>
       <div class="price feature">
         <p class="cap hi">Level 2 · By application</p>
         <h3>Momentum Facilitator Training</h3>
@@ -1098,8 +1068,7 @@ footer a:hover{color:var(--ink)}
       <details><summary>Where is Level 2?</summary><p>At our private studio at Rasa Yoga in central Ubud, Bali. Modern rooms are available on site for around 500,000 IDR a night, and booking them is optional. Rasa has a small café with coffee and matcha and an open kitchen for guests, but meals aren't provided.</p><p>The week is full, so there isn't much time for sightseeing. Aalia lived in Bali for four years and taught in Ubud and Uluwatu from 2020 to 2024, and she's happy to share local tips once you're accepted.</p></details>
       <details><summary>Are accommodation and food included?</summary><p>No. Level 2 covers the training only, so you can stay on site or anywhere else in Ubud that suits you, from rice-field villas to simple homestays.</p></details>
       <details><summary>What does a week in Level 2 look like?</summary><p>Momentum technique classes, facilitation labs and teaching practice, ending with a celebration together, like a sauna and dinner night out. You'll get the full schedule a week before.</p></details>
-      <details><summary>What if I miss a live call?</summary><p>Every call is recorded, so you can catch up in your own time.</p></details>
-      <details><summary>Can I teach the Momentum Method afterwards?</summary><p>Yes. Use any of the practices freely in your own classes. If you build workshops on this material, please credit it as the Momentum Contact Method and share that you trained with Aalia.</p></details>
+            <details><summary>Can I teach the Momentum Method afterwards?</summary><p>Yes. Use any of the practices freely in your own classes. If you build workshops on this material, please credit it as the Momentum Contact Method and share that you trained with Aalia.</p></details>
       <details><summary>What is the refund policy?</summary><p>All sales are final and non-refundable, so please book mindfully. If you can't make it to Level 2, your place can move to a future Momentum Facilitator Training. If we cancel a training, you'll receive a full refund.</p></details>
     </div>
   </div>
